@@ -243,7 +243,7 @@ Date of Birth: January 9, 1995 \\
 
 
 
-# Other academic activities
+# Service to the profession
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
 
@@ -270,8 +270,9 @@ Date of Birth: January 9, 1995 \\
   *Co-organization of a joint UMR DEVSOC and CIRED PhD poster session*
 
 
-- **Refereeing**
-  *Journal of International Development*; *Telematics and Informatics*
+- **Referee for journals**: *Journal of International Development*; *Telematics and Informatics*
+
+- **Scientific Committee**: *ICDE* (2025)
 
 # Grants and Awards
 \vspace{-23pt}
