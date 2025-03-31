@@ -137,11 +137,15 @@ Date of Birth: January 9, 1995 \\
 
 **2025**
 
-- [ITS 33rd European Conference 2025](https://itseurope.org/2025/), Edinburgh, Scotland.
+- [ITS 33rd European Conference 2025](https://itseurope.org/2025/), Edinburgh, Scotland. *Scheduled*
 
-- [Paris Conference on Digital Economics 2025](https://www.digitaleconomics-paris.fr/conference-2025) (Discussant), Palaiseau, France.
+- [41èmes Journées de Microéconomie Appliquée (JMA)](https://jma2025.sciencesconf.org/), Université de Poitiers, France. *Scheduled*
 
-- [ERF 31st Annual Conference](https://erf.org.eg/conference/erf-31st-annual-conference/), Cairo, Egypt.
+- [73rd Congress of the French Economic Association (AFSE)](https://afse2025.sciencesconf.org/), ENS Paris-Saclay, Gif-sur-Yvette, France. *Scheduled*
+
+- [ERF 31st Annual Conference](https://erf.org.eg/conference/erf-31st-annual-conference), Cairo, Egypt.*Scheduled*
+
+- [Paris Conference on Digital Economics 2025](https://www.digitaleconomics-paris.fr/conference-2025) (Discussant), Palaiseau, France. *Scheduled*
 
 - [2025 ADRES Job Market Conférence](https://adres2025.sciencesconf.org), BETA, University of Strasbourg, France.
 
