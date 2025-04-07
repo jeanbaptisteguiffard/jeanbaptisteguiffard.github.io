@@ -116,6 +116,8 @@ Date of Birth: January 9, 1995 \\
 
 2. **Digital platforms, high-speed Internet, and the transition from informal to formal employment in Brazil** (2025) --- with Joël Cariolle
 
+3. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
+
 <!---
 2. **Migration and intergenerational transmission of marriage-related practices in West Africa over the long run: Evidence from oral genealogies** (2023) --- with Antoine Castet, Karine Marazyan, and Munir Squires
 --->
