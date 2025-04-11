@@ -141,6 +141,8 @@ Date of Birth: January 9, 1995 \\
 
 -  [International Conference on Development Economics (ICDE)](https://icde2025.sciencesconf.org/), EconomiX, Nanterre, France. *Scheduled*
 
+- [11th annual AFREN Conference](https://afren.fr/3en_2025_cfp/), EconomiX, Nanterre, France. *Scheduled*
+
 - [ITS 33rd European Conference 2025](https://itseurope.org/2025/), Edinburgh, Scotland. *Scheduled*
 
 - [41èmes Journées de Microéconomie Appliquée (JMA)](https://jma2025.sciencesconf.org/), Université de Poitiers, France. *Scheduled*
@@ -149,9 +151,11 @@ Date of Birth: January 9, 1995 \\
 
 - [ERF 31st Annual Conference](https://erf.org.eg/conference/erf-31st-annual-conference), Cairo, Egypt.*Scheduled*
 
-- [Paris Conference on Digital Economics 2025](https://www.digitaleconomics-paris.fr/conference-2025) (Discussant), Palaiseau, France. *Scheduled*
+- [Paris Conference on Digital Economics 2025](https://www.digitaleconomics-paris.fr/conference-2025) (Discussant), Palaiseau, France.
 
 - [2025 ADRES Job Market Conférence](https://adres2025.sciencesconf.org), BETA, University of Strasbourg, France.
+
+\newpage
 
 **2024**
 

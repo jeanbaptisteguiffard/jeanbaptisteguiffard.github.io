@@ -1,0 +1,303 @@
+---
+title: ""
+output:
+  html_document:
+    toc: false
+    number_sections: false
+    theme: flatly
+    highlight: textmate
+    css: style_1.css
+---
+
+<style>
+
+.social-links {
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+}
+
+.social-links a {
+        display: inline-block;
+}
+
+.social-links img {
+        width: 40px;
+        height: auto;
+        transition: transform 0.2s;
+}
+
+.social-links img:hover {
+        transform: scale(1.1);
+}
+
+.timeline-section {
+  border-left: 4px solid #007BFF;
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline-part {
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-heading {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -49px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #007BFF;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 4px;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.experience-bg {
+  background-color: #f7faff; /* light blueish */
+}
+
+.education-bg {
+  background-color: #fef8f3; /* light orange/cream */
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.header-left {
+  flex: 0 0 140px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-right {
+  flex: 1;
+  min-width: 220px;
+}
+
+.header-right h1 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.header-right h4 {
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  color: #444;
+}
+
+.header-right a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+li { padding: 4px 0px; }
+
+hr {
+    border: 0 none;
+    height: 3px;
+    color: #1c1c1c;
+    background-color: #1c1c1c;
+}
+
+
+.content {
+    overflow: hidden;
+    text-align: justify;
+}
+
+
+</style>
+
+<div id="header" class="header-flex">
+
+<div class="header-left">
+<img src="images/profil_image_new.jpg" alt="Portrait Jean-Baptiste Guiffard" class="profile-pic">
+</div>
+
+<div class="header-right">
+<h1>Jean-Baptiste Guiffard</h1>
+<h4>Postdoctoral Researcher<br>CREST (Télécom Paris)</h4>
+<p>
+<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum Vitae</a> |
+<a href="research.html">Research</a> |
+<a href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao">Google Scholar</a>
+</p>
+</div>
+
+</div>
+
+---
+
+## About
+
+I am currently a postdoctoral researcher in economics at Télécom Paris, affiliated with the Centre de Recherche en Économie et Statistique (CREST) and the Institut Polytechnique de Paris. I am also an associate researcher at the UMR Développement et Sociétés (IRD / Université Paris 1 Panthéon-Sorbonne), and I teach at École Polytechnique and the Institut d'Études du Développement de la Sorbonne (IEDES).
+
+I hold a PhD in economics from Université Paris 1. My research lies at the intersection of digital and development economics, with a focus on causal impact evaluation and geospatial data analysis. Beyond connectivity, my recent work explores the role of digital platforms and artificial intelligence in shaping labor market dynamics and democratic outcomes. 
+
+I am also strongly committed to teaching and research dissemination. I designed and taught an advanced course on R programming and climate data analysis, and I regularly contribute to training sessions, workshops, and student supervision. My work is embedded in collaborative research projects, including the ANR JuGe project on marital dispute resolution in West Africa, and I am actively involved in networks such as ITS, AFEDEV, and the *Evidence Policy Impact Lab*.
+
+---
+
+## News
+
+- 🏆 Winner of the TPRC 2024 Student Paper Award.  
+- 🎓 PhD defended in Sept. 2024 at Université Paris 1.
+- 📚 New Working paper: ** (2024).
+https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/
+
+---
+
+## Projects
+
+- **HYBRID (ANR)** – Self-preferencing and platform competition  
+- **JuGe (ANR)** – Gender inequality and marital justice  
+- **Fake News & Politics in Africa** – With ACLED data  
+- **Broadband & Welfare** – Nightlights, protests, and socio-economic impacts
+
+
+---
+
+## Experience & Education
+
+<div class="timeline-section">
+<div class="timeline-part experience-bg">
+<h3 class="timeline-heading">💼 Experience</h3>
+
+<div class="timeline-item">
+<div class="timeline-date">2024 – Present</div>
+<div class="timeline-content">
+<h4>Postdoctoral Researcher – CREST (Télécom Paris)</h4>
+<p>Research on broadband infrastructure, platforms and digital public service delivery. Member of HYBRID and JuGe ANR projects.</p>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">2022 – 2023</div>
+<div class="timeline-content">
+<h4>Research Fellow – Orange, Regulatory Affairs</h4>
+<p>Worked on spectrum policy, competition in telecom markets, and regulatory impact assessments.</p>
+</div>
+</div>
+
+</div>
+
+<div class="timeline-part education-bg">
+<h3 class="timeline-heading">🎓 Education</h3>
+<div class="timeline-item">
+<div class="timeline-date">2024</div>
+<div class="timeline-content">
+<h4>PhD in Economics – Université Paris 1 Panthéon-Sorbonne</h4>
+<p>Dissertation: <em>Essays in Digital Economics: Three Impact Evaluations of Broadband Internet</em></p>
+</div>
+</div>
+
+
+<div class="timeline-item">
+<div class="timeline-date">2018 – 2019</div>
+<div class="timeline-content">
+<h4>Master Degree in Economic expertise of development – Paris I - Panthéon-Sorbonne University</h4>
+<p>Focus on development economics, microeconometrics, impact evaluation.</p>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">2018</div>
+<div class="timeline-content">
+<h4>Holder of secondary-school teaching diploma in Economic and Social Sciences</h4>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">2011 – 2013</div>
+<div class="timeline-content">
+<h4>Double Degree - Caen University</h4>
+<p>Economics Degree and History Degree.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+---
+
+## Teaching
+
+- 🧑‍🏫 *Climate and Data* – course creator and instructor  
+  [GitHub repository](https://github.com/jeanbaptisteguiffard/intro-R)
+
+- 📊 *Applied Econometrics*       
+
+- 📈 *Data Exploration and Modelling (Inequalities, Discrimination)*  
+  Taught in Master's programs and executive education
+  
+- *Tutored Projects in Development Economics*
+
+
+---
+
+
+
+## Contact
+
+📧 <a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a>  
+📍 CREST - Télécom Paris, Institut Polytechnique de Paris  
+🔗 [GitHub](https://github.com/jeanbaptisteguiffard) | [LinkedIn](https://www.linkedin.com/in/...)
+
+---
+
+<footer class="text-center" style="margin-top: 30px; font-size: 0.9em;">
+  © 2025 Jean-Baptiste Guiffard · Built with R Markdown
+</footer>

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>index_test.knit</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+
+	<meta name="description" content="{{ site.description }}">
+	<meta name="author" content="{{ site.author }}">
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow Condensed">	
+	<link rel="stylesheet" href="/assets/css/styles.css">
+
+	<!-- Icons -->
+	<link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes = "32x32" href="/assets/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes = "16x16" href="/assets/images/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon.png">
+	<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#346c6c">
+
+	<title>
+        {% if page.title %}
+            {{ site.title }} | {{ page.title }}
+        {% else %}
+            {{ site.title }}
+        {% endif %}
+	</title>
+
+	<!-- Mobile -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2C7PZ0KVVS"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		
+		gtag('config', 'G-2C7PZ0KVVS');
+	<link rel="shortcut icon" href="favicon.ico">
+	</script>
+
+	
+
+
+</head>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="style_1.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<div class="nav">
+    <h1>Jean-Baptiste Guiffard</h1>
+    <nav>
+        <a href="index.html">About</a> <strong>|</strong>
+        <a href="research.html">Research</a> <strong>|</strong>
+        <a href="teaching.html">Teaching</a> <strong>|</strong>
+        <a href="automat.html">AuToMat Seminar</a>
+    </nav>
+</div>
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<style>
+
+.social-links {
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+}
+
+.social-links a {
+        display: inline-block;
+}
+
+.social-links img {
+        width: 40px;
+        height: auto;
+        transition: transform 0.2s;
+}
+
+.social-links img:hover {
+        transform: scale(1.1);
+}
+
+.timeline-section {
+  border-left: 4px solid #007BFF;
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline-part {
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-heading {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -49px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #007BFF;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 4px;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.experience-bg {
+  background-color: #f7faff; /* light blueish */
+}
+
+.education-bg {
+  background-color: #fef8f3; /* light orange/cream */
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.header-left {
+  flex: 0 0 140px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-right {
+  flex: 1;
+  min-width: 220px;
+}
+
+.header-right h1 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.header-right h4 {
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  color: #444;
+}
+
+.header-right a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+li { padding: 4px 0px; }
+
+hr {
+    border: 0 none;
+    height: 3px;
+    color: #1c1c1c;
+    background-color: #1c1c1c;
+}
+
+
+.content {
+    overflow: hidden;
+    text-align: justify;
+}
+
+
+</style>
+<div id="header" class="header-flex">
+<div class="header-left">
+<p><img src="images/profil_image_new.jpg" alt="Portrait Jean-Baptiste Guiffard" class="profile-pic"></p>
+</div>
+<div class="header-right">
+<h1>
+Jean-Baptiste Guiffard
+</h1>
+<h4>
+Postdoctoral Researcher<br>CREST (Télécom Paris)
+</h4>
+<p>
+<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum
+Vitae</a> | <a href="research.html">Research</a> |
+<a href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao">Google
+Scholar</a>
+</p>
+</div>
+</div>
+<hr />
+<div id="about" class="section level2">
+<h2>About</h2>
+<p>I am currently a postdoctoral researcher in economics at Télécom
+Paris, affiliated with the Centre de Recherche en Économie et
+Statistique (CREST) and the Institut Polytechnique de Paris. I am also
+an associate researcher at the UMR Développement et Sociétés (IRD /
+Université Paris 1 Panthéon-Sorbonne), and I teach at École
+Polytechnique and the Institut d’Études du Développement de la Sorbonne
+(IEDES).</p>
+<p>I hold a PhD in economics from Université Paris 1. My research lies
+at the intersection of digital and development economics, with a focus
+on causal impact evaluation and geospatial data analysis. Beyond
+connectivity, my recent work explores the role of digital platforms and
+artificial intelligence in shaping labor market dynamics and democratic
+outcomes.</p>
+<p>I am also strongly committed to teaching and research dissemination.
+I designed and taught an advanced course on R programming and climate
+data analysis, and I regularly contribute to training sessions,
+workshops, and student supervision. My work is embedded in collaborative
+research projects, including the ANR JuGe project on marital dispute
+resolution in West Africa, and I am actively involved in networks such
+as ITS, AFEDEV, and the <em>Evidence Policy Impact Lab</em>.</p>
+<hr />
+</div>
+<div id="news" class="section level2">
+<h2>News</h2>
+<ul>
+<li>🏆 Winner of the TPRC 2024 Student Paper Award.<br />
+</li>
+<li>🎓 PhD defended in Sept. 2024 at Université Paris 1.</li>
+<li>📚 New Working paper: ** (2024). <a
+href="https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/"
+class="uri">https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/</a></li>
+</ul>
+<hr />
+</div>
+<div id="projects" class="section level2">
+<h2>Projects</h2>
+<ul>
+<li><strong>HYBRID (ANR)</strong> – Self-preferencing and platform
+competition<br />
+</li>
+<li><strong>JuGe (ANR)</strong> – Gender inequality and marital
+justice<br />
+</li>
+<li><strong>Fake News &amp; Politics in Africa</strong> – With ACLED
+data<br />
+</li>
+<li><strong>Broadband &amp; Welfare</strong> – Nightlights, protests,
+and socio-economic impacts</li>
+</ul>
+<hr />
+</div>
+<div id="experience-education" class="section level2">
+<h2>Experience &amp; Education</h2>
+<div class="timeline-section">
+<div class="timeline-part experience-bg">
+<h3 class="timeline-heading">
+💼 Experience
+</h3>
+<div class="timeline-item">
+<div class="timeline-date">
+2024 – Present
+</div>
+<div class="timeline-content">
+<h4>
+Postdoctoral Researcher – CREST (Télécom Paris)
+</h4>
+<p>
+Research on broadband infrastructure, platforms and digital public
+service delivery. Member of HYBRID and JuGe ANR projects.
+</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">
+2022 – 2023
+</div>
+<div class="timeline-content">
+<h4>
+Research Fellow – Orange, Regulatory Affairs
+</h4>
+<p>
+Worked on spectrum policy, competition in telecom markets, and
+regulatory impact assessments.
+</p>
+</div>
+</div>
+</div>
+<div class="timeline-part education-bg">
+<h3 class="timeline-heading">
+🎓 Education
+</h3>
+<div class="timeline-item">
+<div class="timeline-date">
+2024
+</div>
+<div class="timeline-content">
+<h4>
+PhD in Economics – Université Paris 1 Panthéon-Sorbonne
+</h4>
+<p>
+Dissertation: <em>Essays in Digital Economics: Three Impact Evaluations
+of Broadband Internet</em>
+</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">
+2018 – 2019
+</div>
+<div class="timeline-content">
+<h4>
+Master Degree in Economic expertise of development – Paris I -
+Panthéon-Sorbonne University
+</h4>
+<p>
+Focus on development economics, microeconometrics, impact evaluation.
+</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">
+2018
+</div>
+<div class="timeline-content">
+<h4>
+Holder of secondary-school teaching diploma in Economic and Social
+Sciences
+</h4>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">
+2011 – 2013
+</div>
+<div class="timeline-content">
+<h4>
+Double Degree - Caen University
+</h4>
+<p>
+Economics Degree and History Degree.
+</p>
+</div>
+</div>
+</div>
+</div>
+<hr />
+</div>
+<div id="teaching" class="section level2">
+<h2>Teaching</h2>
+<ul>
+<li><p>🧑‍🏫 <em>Climate and Data</em> – course creator and
+instructor<br />
+<a href="https://github.com/jeanbaptisteguiffard/intro-R">GitHub
+repository</a></p></li>
+<li><p>📊 <em>Applied Econometrics</em></p></li>
+<li><p>📈 <em>Data Exploration and Modelling (Inequalities,
+Discrimination)</em><br />
+Taught in Master’s programs and executive education</p></li>
+<li><p><em>Tutored Projects in Development Economics</em></p></li>
+</ul>
+<hr />
+</div>
+<div id="contact" class="section level2">
+<h2>Contact</h2>
+<p>📧
+<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br />
+📍 CREST - Télécom Paris, Institut Polytechnique de Paris<br />
+🔗 <a href="https://github.com/jeanbaptisteguiffard">GitHub</a> | <a
+href="https://www.linkedin.com/in/...">LinkedIn</a></p>
+<hr />
+<footer class="text-center" style="margin-top: 30px; font-size: 0.9em;">
+© 2025 Jean-Baptiste Guiffard · Built with R Markdown
+</footer>
+</div>
+
+<footer role="contentinfo" id="site-footer">
+
+<!-- /.bottom-menu -->
+	<p 
+<div class="social-links">
+  <a href="https://bsky.app/profile/jbguiffard.bsky.social" target="_blank"><img src="images/Bluesky_Logo.png" alt="Bluesky"></a>
+  <a href="https://www.linkedin.com/in/jean-baptiste-guiffard-b7063090/" target="_blank"><img src="images/logo-linkedin.png" alt="LinkedIn"></a>
+</div>
+		
+</p>
+</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
