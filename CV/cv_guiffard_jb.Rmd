@@ -104,19 +104,19 @@ Date of Birth: January 9, 1995 \\
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
 
-1. [**From Connection to Coordination: High-Speed Internet and Protests in Africa**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4247083) (2022)
+1. [**From Connection to Coordination: High-Speed Internet and Protests in Africa**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4247083) (2024)
   
 2. [**Welfare Cost of Mobile Spectrum (Mis)allocation**](https://cepr.org/publications/dp18016) (2022) --- with Marc Ivaldi, Julienne Liang and Louise Aïmène
+
+3. [**From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia**](https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/) (2025) --- with Mohamed Ali Marouani
 
 # Research Projects
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
 
-1. **From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia** (2024) --- with Mohamed Ali Marouani
+1. **Digital platforms, high-speed Internet, and the transition from informal to formal employment in Brazil** (2025) --- with Joël Cariolle
 
-2. **Digital platforms, high-speed Internet, and the transition from informal to formal employment in Brazil** (2025) --- with Joël Cariolle
-
-3. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
+2. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
 
 <!---
 2. **Migration and intergenerational transmission of marriage-related practices in West Africa over the long run: Evidence from oral genealogies** (2023) --- with Antoine Castet, Karine Marazyan, and Munir Squires
@@ -149,7 +149,7 @@ Date of Birth: January 9, 1995 \\
 
 - [73rd Congress of the French Economic Association (AFSE)](https://afse2025.sciencesconf.org/), ENS Paris-Saclay, Gif-sur-Yvette, France. *Scheduled*
 
-- [ERF 31st Annual Conference](https://erf.org.eg/conference/erf-31st-annual-conference), Cairo, Egypt.*Scheduled*
+- [ERF 31st Annual Conference](https://erf.org.eg/conference/erf-31st-annual-conference), Cairo, Egypt.
 
 - [Paris Conference on Digital Economics 2025](https://www.digitaleconomics-paris.fr/conference-2025) (Discussant), Palaiseau, France.
 
@@ -255,7 +255,7 @@ AFREN Doctoral Worskhop, Palaiseau, France. [52nd Research Conference on Communi
   *Co-organization of a joint UMR DEVSOC and CIRED PhD poster session*
 
 
-- **Referee for journals**: *Journal of International Development*; *Telematics and Informatics*
+- **Referee for journals**: *Journal of International Development*; *Revue internationale des études du développement*; *Telematics and Informatics*
 
 - **Scientific Committee**: *ICDE* (2025)
 
