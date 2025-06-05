@@ -105,7 +105,7 @@ output:
   width: 140px;
   height: 140px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 0%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -184,9 +184,13 @@ hr {
 
 I am currently a postdoctoral researcher in economics at [Télécom Paris](https://www.telecom-paris.fr/fr/ecole/departements-enseignement-recherche/sciences-economiques-sociales), affiliated with the Centre de Recherche en Économie et Statistique ([CREST](https://crest.science/)) and the [Institut Polytechnique de Paris](https://www.ip-paris.fr/). I am also an associate researcher at the [UMR Développement et Sociétés](https://umr-devsoc.pantheonsorbonne.fr/), and I teach at [École Polytechnique](https://www.polytechnique.edu/) and the Institut d'Études du Développement de la Sorbonne ([IEDES](https://iedes.pantheonsorbonne.fr/)).
 
-I hold a PhD in economics from Université Paris 1 Panthéon-Sorbonne. My research lies at the intersection of digital and development economics, with a focus on causal impact evaluation and geospatial data analysis. Beyond connectivity, my recent work explores the role of digital platforms and artificial intelligence in shaping labor market dynamics and democratic outcomes. 
+I hold a PhD in economics from Université Paris 1 Panthéon-Sorbonne. My research lies at the intersection of digital and development economics, with a focus on causal impact evaluation and geospatial data analysis. Beyond connectivity, my recent work explores the role of digital platforms and artificial intelligence in shaping labor market dynamics.
+
+<!---
 
 I am also strongly committed to teaching and research dissemination. I designed and taught an advanced course on R programming and climate data analysis, and I regularly contribute to training sessions, workshops, and student supervision. My work is embedded in collaborative research projects, including the ANR JuGe project on marital dispute resolution in West Africa, and I am actively involved in networks such as ITS, AFEDEV, and the *Evidence Policy Impact Lab*.
+
+--->
 
 ---
 
