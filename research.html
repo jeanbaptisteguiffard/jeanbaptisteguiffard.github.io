@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -108,6 +108,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="style_1.css" type="text/css" />
 
 
 
@@ -207,12 +208,6 @@ pre code {
 
 <div class="nav">
     <h1>Jean-Baptiste Guiffard</h1>
-    <nav>
-        <a href="index.html">About</a> <strong>|</strong>
-        <a href="research.html">Research</a> <strong>|</strong>
-        <a href="teaching.html">Teaching</a> <strong>|</strong>
-        <a href="automat.html">AuToMat Seminar</a>
-    </nav>
 </div>
 
 <div id="header">
@@ -223,123 +218,7 @@ pre code {
 </div>
 
 
-<style> 
-$basepadding: 16px;
-
-html, body {height: 100%;}
-
-body, h1, h2, h3, h4, h5, h6, p {
-    font-family: "Roboto Condensed", sans-serif;
-    color: #1c1c1c;
-    line-height: 1.4;
-}
-
-body {
-    background-color: #f2efed;
-    margin: auto;
-    width: 85%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-}
-
-.nav {
-    padding: 15px;
-    text-align: center;
-}
-
-.nav h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #1c1c1c;
-    padding-bottom: 10px;
-}
-
-.nav nav {
-    font-size: 18px;
-}
-
-.nav a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-.nav strong {
-    color: #ffffff;
-    font-weight: bold;
-    margin: 0 8px;  /* Ajoute un espace autour des barres verticales */
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    color: #4a90e2;
-}
-
-h1 {
-    font-size: 18pt;
-    color: #1c1c1c;
-    padding-top: 0pt;
-    padding-bottom: 0px;
-}
-
-h2 {
-    font-size: 14pt;
-    padding-top: $basepadding;
-    padding-bottom: 0px;
-}
-
-h3 {
-    font-size: 12pt;
-    padding-top: $basepadding;
-    padding-bottom: 0px;
-}
-
-p {
-    font-size: 12pt;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-a:link, a:visited {
-    color: #2a6e7c;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #2a6e7c;
-    text-decoration: underline;
-    text-underline-offset: 10%;
-}
-
-ul {
-    list-style-type: square;
-    padding-left: 16px;
-}
-
-li { padding: 4px 0px; }
-
-hr {
-    border: 0 none;
-    height: 3px;
-    color: #1c1c1c;
-    background-color: #1c1c1c;
-}
-
-img {
-    float: left;
-    margin: 0 15px 15px 0;
-    max-width: 50%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-.content {
-    overflow: hidden;
-    text-align: justify;
-}
+<style>
 
 .social-links {
         text-align: center;
@@ -364,51 +243,223 @@ img {
         transform: scale(1.1);
 }
 
+.timeline-section {
+  border-left: 4px solid #007BFF;
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline-part {
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-heading {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -49px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #007BFF;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 4px;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.experience-bg {
+  background-color: #f7faff; /* light blueish */
+}
+
+.education-bg {
+  background-color: #fef8f3; /* light orange/cream */
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.header-left {
+  flex: 0 0 140px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-right {
+  flex: 1;
+  min-width: 220px;
+}
+
+.header-right h1 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.header-right h4 {
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  color: #444;
+}
+
+.header-right a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+li { padding: 4px 0px; }
+
+hr {
+    border: 0 none;
+    height: 3px;
+    color: #1c1c1c;
+    background-color: #1c1c1c;
+}
+
+
+.content {
+    overflow: hidden;
+    text-align: justify;
+}
+
+/* Layout for publication/work blocks: image on the left, text on the right on desktop; stacked on mobile */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.content .figure {
+  flex: 0 0 300px;
+  max-width: 300px;
+}
+
+.content .figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content .abstract {
+  flex: 1;
+  min-width: 220px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .content .figure,
+  .content .abstract {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 </style>
-<p><link rel="shortcut icon" href="favicon.ico"></p>
-<h2 class="section-title">
-Publications
-</h2>
+<div id="header" class="header-flex">
+<div class="header-left">
+<p><img src="images/profil_image_new.jpg" alt="Portrait Jean-Baptiste Guiffard" class="profile-pic"></p>
+</div>
+<div class="header-right">
+<h4>
+Postdoctoral Researcher<br>CREST (Télécom Paris, Institut Polytechnique
+de Paris)
+</h4>
+<p>
+<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<a href="index.html">Home Page</a> |
+<a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum
+Vitae</a> | <a href="research.html">Research</a> |
+<a href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao">Google
+Scholar</a> | <a href="automat.html">AuToMat Seminar</a>
+</p>
+</div>
+</div>
+<hr />
+<div id="publications" class="section level2">
+<h2>Publications</h2>
 <div class="content">
 <div class="figure">
-<p><img src="images/map_methodo_bretteville_14022024.png" class="rounded-image" alt="Map Methodology Bretteville"></p>
+<p><img src="images/map_methodo_bretteville_14022024.png" alt="Map Methodology Bretteville"></p>
 </div>
 <div class="abstract">
 <a href="https://doi.org/10.1016/j.telpol.2024.102732"><strong>Valuing
 the Virtual: The Impact of Fiber to the Home on Property Prices in
-France</strong></a> - <em>Telecommunications Policy, Volume 48, Issue 4,
-2024</em> (<a
-href="https://jeanbaptisteguiffard.github.io/docs/articles/1-s2.0-S0308596124000296-main.pdf">PDF</a>)
+France</strong></a> - <em>Telecommunications Policy, 2024</em>
 <p>
 This paper examines the value that households place on very high-speed
 internet access, explicitly focusing on the impact of eligibility for
 Fiber to the Home (FTTH) technology on property prices. Using a Spatial
 Discontinuity Design based on the border of fiber eligibility zones
-which have significantly expanded under France’s <em>Plan Très
-Haut-Débit</em>, I find that FTTH eligibility is a significant
-determinant of property prices, with an average increase of 0.9 percent.
-I also consider heterogeneities in FTTH valuation, accounting for
-socioeconomic characteristics, local factors, and the performance of
-legacy copper networks. These findings highlight the growing importance
-of fast and reliable broadband access for households and have important
-implications for policymakers and Internet service providers.
+which have significantly expanded under France’s Plan Très Haut-Débit, I
+find that FTTH eligibility is a significant determinant of property
+prices, with an average increase of 0.9 percent. I also consider
+heterogeneities in FTTH valuation, accounting for socioeconomic
+characteristics, local factors, and the performance of legacy copper
+networks. These findings highlight the growing importance of fast and
+reliable broadband access for households and have important implications
+for policymakers and Internet service providers.
 </p>
 </div>
 </div>
 <div class="content">
 <div class="figure">
-<p><img src="images/mechanisms_paper_kergall.png" class="rounded-image" alt="Kergall Guiffard 2024"></p>
+<p><img src="images/mechanisms_paper_kergall.png" alt="Kergall Guiffard 2024"></p>
 </div>
 <div class="abstract">
 <a
 href="https://www.insee.fr/en/statistiques/8186105?sommaire=8186112"><strong>Impact
 of Broadband Internet on Preventive Healthcare Behaviours in
-Senegal</strong></a> (with <a
-href="https://sites.google.com/view/paulinekergall/home?authuser=0">Pauline
-Kergall</a>) - <em>Economie et Statistique / Economics and Statistics,
-542, 99–123, 2024</em> (<a
-href="https://jeanbaptisteguiffard.github.io/docs/articles/06_ES542_Kergall-Guiffard_EN.pdf">EN</a>/<a
-href="https://jeanbaptisteguiffard.github.io/docs/articles/06_ES542_Kergall-Guiffard_FR.pdf">FR</a>)
+Senegal</strong></a> (with Pauline Kergall) - <em>Economie et
+Statistique / Economics and Statistics, 2024</em>
 <p>
 In sub-Saharan African (SSA) countries the main channels of morbidity
 and mortality are preventable and treatable diseases. Yet, SSA countries
@@ -430,12 +481,13 @@ improve health through increased access to information.
 </p>
 </div>
 </div>
-<h2 class="section-title">
-Work in Progress
-</h2>
+<hr />
+</div>
+<div id="working-papers" class="section level2">
+<h2>Working Papers</h2>
 <div class="content">
 <div class="figure">
-<p><img src="images/plot_methodo_chap1_bon.jpeg" class="rounded-image" alt="Map chap 1"></p>
+<p><img src="images/plot_methodo_chap1_bon.jpeg" alt="Map chap 1"></p>
 </div>
 <div class="abstract">
 <a href="https://ssrn.com/abstract=4950715"><strong>From Connection to
@@ -459,13 +511,11 @@ effects.
 </div>
 <div class="content">
 <div class="figure">
-<p><img src="images/marginal_cost_MNO_germany.jpg" class="rounded-image" alt="marginal cost"></p>
+<p><img src="images/marginal_cost_MNO_germany.jpg" alt="marginal cost"></p>
 </div>
 <div class="abstract">
 <strong>Welfare Cost of Mobile Spectrum (Mis)allocation</strong> (with
-<a href="https://www.tse-fr.eu/fr/people/marc-ivaldi">Marc Ivaldi</a>,
-<a href="https://www.researchgate.net/profile/Julienne-Liang">Julienne
-Liang</a> and Louise Aïmène) - <a
+Marc Ivaldi, Julienne Liang, and Louise Aïmène) - <a
 href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228058">Working
 Paper</a>
 <p>
@@ -492,30 +542,36 @@ significantly improved.
 </div>
 <div class="content">
 <div class="figure">
-<p><img src="images/tunisie_maps_chap3.jpg" class="rounded-image" alt="Map tunisia"></p>
+<p><img src="images/tunisie_maps_chap3.jpg" alt="Map tunisia"></p>
 </div>
 <div class="abstract">
-<strong>From Bytes to Business: Mobile Broadband, Firm Creations and
-Digital Divide in Tunisia</strong> (with <a
-href="https://sites.google.com/view/mohamedali-marouani/home">Mohamed
-Ali Marouani</a>)
+<a
+href="https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/"><em>From
+Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide
+in Tunisia</em></a> (with Mohamed Ali Marouani)
 <p>
 This paper investigates the impact of mobile broadband Internet on
 business creation in Tunisia. Using a rich dataset of Tunisian
-delegations, the study employs a count model to assess the influence of
-mobile broadband Internet quality and other infrastructure and
-delegation characteristics on firm location decisions. The empirical
+delegations, the study employs a count model and fixed effects panel
+data estimation to assess the influence of mobile broadband Internet
+quality and delegation characteristics on firm creation. The empirical
 findings demonstrate a robust positive relationship between the density
 of 4G antennas per 10,000 inhabitants and the number of new business
-creations. Notably, this relationship is stronger and exhibits later
-effects in rural areas, particularly on the peripheries of major urban
-centers, suggesting varying rates of technology adoption and challenging
-the hypothesis of the ``death of distance” that broadband Internet was
-expected to bring. This research highlights the potential role of mobile
-broadband in stimulating local economic growth and sheds nuanced light
-on the economic implications of the digital divide.
+creations (and a positive impact on net business creations). Notably,
+this relationship is stronger and exhibits later effects in rural areas,
+particularly on the peripheries of major urban centers, suggesting
+varying rates of technology adoption and challenging the hypothesis of
+the ``death of distance” that broadband Internet was expected to bring.
+This research highlights the potential role of mobile broadband in
+stimulating local economic growth and sheds nuanced light on the
+economic implications of the digital divide.
 </p>
 </div>
+</div>
+<hr />
+<footer class="text-center" style="margin-top: 30px; font-size: 0.9em;">
+© 2025 Jean-Baptiste Guiffard · Built with R Markdown
+</footer>
 </div>
 
 <footer role="contentinfo" id="site-footer">

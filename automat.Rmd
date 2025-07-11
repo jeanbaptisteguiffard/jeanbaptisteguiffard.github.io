@@ -1,116 +1,16 @@
 ---
 title: ""
-output: html_document
+output:
+  html_document:
+    toc: false
+    number_sections: false
+    theme: flatly
+    highlight: textmate
+    css: style_1.css
 ---
 
-```{r, echo=FALSE}
-# Ce bloc de code est optionnel si vous avez besoin d'intégrer du code R
 
-```
-
-<style> 
-$basepadding: 16px;
-
-html, body {height: 100%;}
-
-body, h1, h2, h3, h4, h5, h6, p {
-    font-family: "Roboto Condensed", sans-serif;
-    color: #1c1c1c;
-    line-height: 1.4;
-}
-
-body {
-    background-color: #f2efed;
-    margin: auto;
-    width: 85%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-}
-
-.nav {
-    padding: 15px;
-    text-align: center;
-}
-
-.nav h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #1c1c1c;
-    padding-bottom: 10px;
-}
-
-.nav nav {
-    font-size: 18px;
-}
-
-.nav a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-.nav strong {
-    color: #ffffff;
-    font-weight: bold;
-    margin: 0 8px;  /* Ajoute un espace autour des barres verticales */
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    color: #4a90e2;
-}
-
-h1 {
-    font-size: 18pt;
-    color: #1c1c1c;
-    padding-top: 0pt;
-    padding-bottom: 0px;
-}
-
-h2 {
-    font-size: 14pt;
-    padding-top: $basepadding;
-    padding-bottom: 0px;
-}
-
-h3 {
-    font-size: 12pt;
-    padding-top: $basepadding;
-    padding-bottom: 0px;
-}
-
-p {
-    font-size: 12pt;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-a:link, a:visited {
-    color: #2a6e7c;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #2a6e7c;
-    text-decoration: underline;
-    text-underline-offset: 10%;
-}
-
-ul {
-    list-style-type: square;
-    padding-left: 16px;
-}
-
-li { padding: 4px 0px; }
-
-hr {
-    border: 0 none;
-    height: 3px;
-    color: #1c1c1c;
-    background-color: #1c1c1c;
-}
+<style>
 
 .social-links {
         text-align: center;
@@ -135,43 +35,186 @@ hr {
         transform: scale(1.1);
 }
 
-</style> 
+.timeline-section {
+  border-left: 4px solid #007BFF;
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+}
 
-<link rel="shortcut icon" href="favicon.ico">
+.timeline-part {
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-heading {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -49px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #007BFF;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 4px;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.experience-bg {
+  background-color: #f7faff; /* light blueish */
+}
+
+.education-bg {
+  background-color: #fef8f3; /* light orange/cream */
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.header-left {
+  flex: 0 0 140px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-right {
+  flex: 1;
+  min-width: 220px;
+}
+
+.header-right h1 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.header-right h4 {
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  color: #444;
+}
+
+.header-right a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+li { padding: 4px 0px; }
+
+hr {
+    border: 0 none;
+    height: 3px;
+    color: #1c1c1c;
+    background-color: #1c1c1c;
+}
+
+
+.content {
+    overflow: hidden;
+    text-align: justify;
+}
+
+
+</style>
 
 
 
+<div id="header" class="header-flex">
 
-<div>
-  <img alt="Pavillon picture" src="images/pavillon_Indochine - Copie1.jpg" class="rounded-image"/>
-  <figcaption> <i>Jardin tropical René-Dumont, January 2022 </i> </figcaption>
+<div class="header-left">
+<img src="images/profil_image_new.jpg" alt="Portrait Jean-Baptiste Guiffard" class="profile-pic">
+</div>
+
+<div class="header-right">
+<h4>Postdoctoral Researcher<br>CREST (Télécom Paris, Institut Polytechnique de Paris)</h4>
+<p>
+<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<a href="index.html">Home Page</a> |
+<a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum Vitae</a> |
+<a href="research.html">Research</a> |
+<a href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao">Google Scholar</a> |
+<a href="automat.html">AuToMat Seminar</a>
+</p>
+</div>
+
 </div>
 
 
 
+---
 
-Welcome to the Methodological Seminar hosted by the UMR Development & Societies! This seminar is open to PhD students, senior researchers, IEDES students, and external individuals interested in attending. Our primary objectives are:
+<div class="content">
+<div class="figure" style="text-align:center;">
+  <img src="images/pavillon_Indochine - Copie1.jpg" alt="Pavillon picture" style="max-width:300px; width:100%; border-radius:10px; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);">
+  <figcaption><i>Jardin tropical René-Dumont, January 2022</i></figcaption>
+</div>
 
-Fostering interdisciplinary exchanges by utilizing our research materials and tools to represent and analyze them.
+<p>Welcome to the Methodological Seminar hosted by the UMR Development & Societies! This seminar is open to PhD students, senior researchers, IEDES students, and external individuals interested in attending.</p>
 
-Providing a platform for sharing tips and best practices related to the description and analysis of our materials. We will have dedicated sessions where we explore various (free) software options for specific analyses, such as cartography with QGIS, web scraping with R, and more.
+<p>Our primary objectives are:</p>
 
-Join us in this enriching and collaborative environment as we delve into methodological advancements and enhance our research practices.
+<ul>
+  <li>Fostering interdisciplinary exchanges by utilizing our research materials and tools to represent and analyze them.</li>
+  <li>Providing a platform for sharing tips and best practices related to the description and analysis of our materials. We will have dedicated sessions where we explore various (free) software options for specific analyses, such as cartography with QGIS, web scraping with R, and more.</li>
+</ul>
 
------
+<p>Join us in this enriching and collaborative environment as we delve into methodological advancements and enhance our research practices.</p>
 
-To attend the seminar remotely, here is a Zoom link:
+<hr>
 
-- https://zoom.univ-paris1.fr/j/91662789758?pwd=eGg1UngrNXhvUWZsZDNtKzJpOGtNdz09
+<h3>Remote Participation</h3>
+<p>
+Zoom link:<br>
+<a href="https://zoom.univ-paris1.fr/j/91662789758?pwd=eGg1UngrNXhvUWZsZDNtKzJpOGtNdz09">https://zoom.univ-paris1.fr/j/91662789758?pwd=eGg1UngrNXhvUWZsZDNtKzJpOGtNdz09</a><br>
+Meeting ID: 916 6278 9758<br>
+Passcode: 378733
+</p>
 
-- ID de réunion : 916 6278 9758
-
-- Code secret : 378733
-
-----
+<hr>
 
 <h2 class="section-title">2023-2024 (Third Edition)</h2>
-
 
 - **Vendredi 21 juin 2024 (12h30-14h00)** : Louise Protar (UMR Développement & Sociétés) et [Sveva Vitellozzi](https://sites.google.com/view/svevavitellozzi) (University of Bologna) 
 
@@ -221,19 +264,29 @@ Depuis une trentaine d'années, des inondations régulières affectent la banlie
 
 Cette présentation porte sur l’« Archive » en tant que source, objet, et méthode. Elle propose une définition large de l’Archive englobant divers types de documentation et de collections d’information (textes, chiffres, tableaux statistiques, photographies, etc.) utilisables pour examiner (ou appliquer) des connaissances spécifiques. La présentation revient sur les « processus d’archivage », les conditions de « l’archivation » et les diverses facettes de la relation entre l’Archive et l’enquête. Elle présente différentes méthodes d’analyse qualitative et quantitative pour travailler sur et avec les archives. La séance se focalise particulièrement sur l’Archive dans le domaine des études de développement et présente des exemples concrets à partir des recherches sur le rôle des acteurs technocratiques dans les trans/formations des États – et notamment de la Turquie républicaine.
 
-----
+<hr>
 
-Organizers :
+<h3>Organizers</h3>
 
-- [Antoine Castet](https://sites.google.com/view/antoinecastet) (antoine.castet@univ-paris1.fr) ; 
-- [Jean-Baptiste Guiffard](https://jeanbaptisteguiffard.github.io/) (jean-baptiste.guiffard@univ-paris1.fr) ; 
-- [Karine Marazyan](https://sites.google.com/site/karinemarazyan/index) (karine.marazyan@univ-paris1.fr).
+<ul>
+  <li><a href="https://sites.google.com/view/antoinecastet">Antoine Castet</a> (antoine.castet@univ-paris1.fr)</li>
+  <li><a href="https://jeanbaptisteguiffard.github.io/">Jean-Baptiste Guiffard</a> (jean-baptiste.guiffard@univ-paris1.fr)</li>
+  <li><a href="https://sites.google.com/site/karinemarazyan/index">Karine Marazyan</a> (karine.marazyan@univ-paris1.fr)</li>
+</ul>
 
-----
+<hr>
 
 <h2 class="section-title">Past Editions</h2>
 
-[**2022-2023 (Second Edition)**](https://jeanbaptisteguiffard.github.io/automat_2023.html)
+<ul>
+  <li><a href="https://jeanbaptisteguiffard.github.io/automat_2023.html"><strong>2022-2023 (Second Edition)</strong></a></li>
+  <li><a href="https://jeanbaptisteguiffard.github.io/automat_2022.html"><strong>2021-2022 (First Edition)</strong></a></li>
+</ul>
+</div>
 
-[**2021-2022 (First Edition)**](https://jeanbaptisteguiffard.github.io/automat_2022.html)
+---
+
+<footer class="text-center" style="margin-top: 30px; font-size: 0.9em;">
+  © 2025 Jean-Baptiste Guiffard · Built with R Markdown
+</footer>
 

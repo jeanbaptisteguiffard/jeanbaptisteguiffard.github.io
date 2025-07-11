@@ -165,10 +165,10 @@ hr {
 </div>
 
 <div class="header-right">
-<h1>Jean-Baptiste Guiffard</h1>
 <h4>Postdoctoral Researcher<br>CREST (Télécom Paris, Institut Polytechnique de Paris)</h4>
 <p>
 <a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<a href="index.html">Home Page</a> |
 <a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum Vitae</a> |
 <a href="research.html">Research</a> |
 <a href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao">Google Scholar</a> |
@@ -195,6 +195,7 @@ I am also strongly committed to teaching and research dissemination. I designed 
 ---
 
 ## News
+- 📢 *I will join the [LERN](https://www.lern.fr/) team as a associate professor in Septembre 2025!*
 - 📢 *On the job market 2024-2025!*
 - 📚 New Working paper: [*From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia*](https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/) (2025).
 - 🎓 PhD defended in Sept. 2024 at Université Paris 1.
@@ -204,21 +205,16 @@ I am also strongly committed to teaching and research dissemination. I designed 
 
 ---
 
-## Projects
+## Research 
 
-
-- **JuGe (ANR)** – Gender inequality and marital justice  
-- **Fake News & Politics in Africa** – With ACLED data  
-- **Broadband & Welfare** – Nightlights, protests, and socio-economic impacts
-
-Publications
+### 📚 Publications
 
 1. Guiffard J.-B. (2024). Valuing the Virtual: The Impact of Fiber to the Home on Property Prices in France.  *Telecommunications Policy*, 48(4), 102732. doi: [10.1016/j.telpol.2024.102732](https://doi.org/10.1016/j.telpol.2024.102732).
 
 2. Kergall, P. & Guiffard, J.-B. (2024). Impact of Broadband Internet on Preventive Healthcare Behaviours in Senegal. *Economie et Statistique / Economics and Statistics*, 542, 99–123. doi: [10.24187/ecostat.2024.542.2113](https://doi.org/10.24187/ecostat.2024.542.2113).
 
 
-Working Papers
+### 📄 Working Papers
 
 1. [**From Connection to Coordination: High-Speed Internet and Protests in Africa**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4247083) (2024)
   
@@ -226,7 +222,7 @@ Working Papers
 
 3. [**From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia**](https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/) (2025) --- with Mohamed Ali Marouani
 
-Research Projects
+### 📑 Ongoing Research
 
 
 1. **Digital platforms, high-speed Internet, and the transition from informal to formal employment in Brazil** (2025) --- with Joël Cariolle
@@ -307,6 +303,7 @@ Research Projects
 </div>
 
 
+<!---
 ---
 
 ## Teaching
@@ -340,13 +337,13 @@ Research Projects
 
 ---
 
-
+--->
 
 ## Contact
 
 📧 <a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a>  
-📍 CREST - Télécom Paris, Institut Polytechnique de Paris  
-🔗 [GitHub](https://github.com/jeanbaptisteguiffard) | [LinkedIn](https://www.linkedin.com/in/...)
+📍 Telecom-Paris, Departement SES, 19 place Marguerite Perey, 91120, Palaiseau, France </a>  
+🔗 [GitHub](https://github.com/jeanbaptisteguiffard) | [LinkedIn](https://www.linkedin.com/in/jean-baptiste-guiffard-b7063090/)
 
 ---
 

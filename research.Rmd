@@ -1,130 +1,16 @@
 ---
 title: ""
-output: html_document
+output:
+  html_document:
+    toc: false
+    number_sections: false
+    theme: flatly
+    highlight: textmate
+    css: style_1.css
 ---
 
-```{r, echo=FALSE}
-# Ce bloc de code est optionnel si vous avez besoin d'intégrer du code R
 
-```
-
-<style> 
-$basepadding: 16px;
-
-html, body {height: 100%;}
-
-body, h1, h2, h3, h4, h5, h6, p {
-    font-family: "Roboto Condensed", sans-serif;
-    color: #1c1c1c;
-    line-height: 1.4;
-}
-
-body {
-    background-color: #f2efed;
-    margin: auto;
-    width: 85%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-}
-
-.nav {
-    padding: 15px;
-    text-align: center;
-}
-
-.nav h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #1c1c1c;
-    padding-bottom: 10px;
-}
-
-.nav nav {
-    font-size: 18px;
-}
-
-.nav a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-.nav strong {
-    color: #ffffff;
-    font-weight: bold;
-    margin: 0 8px;  /* Ajoute un espace autour des barres verticales */
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    color: #4a90e2;
-}
-
-h1 {
-    font-size: 18pt;
-    color: #1c1c1c;
-    padding-top: 0pt;
-    padding-bottom: 0px;
-}
-
-h2 {
-    font-size: 14pt;
-    padding-top: $basepadding;
-    padding-bottom: 0px;
-}
-
-h3 {
-    font-size: 12pt;
-    padding-top: $basepadding;
-    padding-bottom: 0px;
-}
-
-p {
-    font-size: 12pt;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-a:link, a:visited {
-    color: #2a6e7c;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #2a6e7c;
-    text-decoration: underline;
-    text-underline-offset: 10%;
-}
-
-ul {
-    list-style-type: square;
-    padding-left: 16px;
-}
-
-li { padding: 4px 0px; }
-
-hr {
-    border: 0 none;
-    height: 3px;
-    color: #1c1c1c;
-    background-color: #1c1c1c;
-}
-
-img {
-    float: left;
-    margin: 0 15px 15px 0;
-    max-width: 50%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-.content {
-    overflow: hidden;
-    text-align: justify;
-}
+<style>
 
 .social-links {
         text-align: center;
@@ -149,68 +35,252 @@ img {
         transform: scale(1.1);
 }
 
-</style> 
+.timeline-section {
+  border-left: 4px solid #007BFF;
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline-part {
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-heading {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -49px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #007BFF;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 4px;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.experience-bg {
+  background-color: #f7faff; /* light blueish */
+}
+
+.education-bg {
+  background-color: #fef8f3; /* light orange/cream */
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.header-left {
+  flex: 0 0 140px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-right {
+  flex: 1;
+  min-width: 220px;
+}
+
+.header-right h1 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.header-right h4 {
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  color: #444;
+}
+
+.header-right a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
 
 
-<link rel="shortcut icon" href="favicon.ico">
+ul {
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+li { padding: 4px 0px; }
+
+hr {
+    border: 0 none;
+    height: 3px;
+    color: #1c1c1c;
+    background-color: #1c1c1c;
+}
+
+
+.content {
+    overflow: hidden;
+    text-align: justify;
+}
+
+/* Layout for publication/work blocks: image on the left, text on the right on desktop; stacked on mobile */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.content .figure {
+  flex: 0 0 300px;
+  max-width: 300px;
+}
+
+.content .figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content .abstract {
+  flex: 1;
+  min-width: 220px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .content .figure,
+  .content .abstract {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+</style>
 
 
 
+<div id="header" class="header-flex">
+
+<div class="header-left">
+<img src="images/profil_image_new.jpg" alt="Portrait Jean-Baptiste Guiffard" class="profile-pic">
+</div>
+
+<div class="header-right">
+<h4>Postdoctoral Researcher<br>CREST (Télécom Paris, Institut Polytechnique de Paris)</h4>
+<p>
+<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<a href="index.html">Home Page</a> |
+<a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum Vitae</a> |
+<a href="research.html">Research</a> |
+<a href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao">Google Scholar</a> |
+<a href="automat.html">AuToMat Seminar</a>
+</p>
+</div>
+
+</div>
 
 
-<h2 class="section-title">Publications</h2>
+---
+
+## Publications
 
 <div class="content">
 <div class="figure">
-<img src="images/map_methodo_bretteville_14022024.png" class="rounded-image" alt="Map Methodology Bretteville">
+<img src="images/map_methodo_bretteville_14022024.png" alt="Map Methodology Bretteville">
 </div>
 <div class="abstract">
-[**Valuing the Virtual: The Impact of Fiber to the Home on Property Prices in France**](https://doi.org/10.1016/j.telpol.2024.102732) - *Telecommunications Policy, Volume 48, Issue 4, 2024* ([PDF](https://jeanbaptisteguiffard.github.io/docs/articles/1-s2.0-S0308596124000296-main.pdf))
-<p>This paper examines the value that households place on very high-speed internet access, explicitly focusing on the impact of eligibility for Fiber to the Home (FTTH) technology on property prices. Using a Spatial Discontinuity Design based on the border of fiber eligibility zones which have significantly expanded under France's *Plan Très Haut-Débit*, I find that FTTH eligibility is a significant determinant of property prices, with an average increase of 0.9 percent. I also consider heterogeneities in FTTH valuation, accounting for socioeconomic characteristics, local factors, and the performance of legacy copper networks. These findings highlight the growing importance of fast and reliable broadband access for households and have important implications for policymakers and Internet service providers.</p>
+[**Valuing the Virtual: The Impact of Fiber to the Home on Property Prices in France**](https://doi.org/10.1016/j.telpol.2024.102732) - *Telecommunications Policy, 2024*
+<p>This paper examines the value that households place on very high-speed internet access, explicitly focusing on the impact of eligibility for Fiber to the Home (FTTH) technology on property prices. Using a Spatial Discontinuity Design based on the border of fiber eligibility zones which have significantly expanded under France’s Plan Très Haut-Débit, I find that FTTH eligibility is a significant determinant of property prices, with an average increase of 0.9 percent. I also consider heterogeneities in FTTH valuation, accounting for socioeconomic characteristics, local factors, and the performance of legacy copper networks. These findings highlight the growing importance of fast and reliable broadband access for households and have important implications for policymakers and Internet service providers.</p>
 </div>
 </div>
 
 <div class="content">
 <div class="figure">
-  <img src="images/mechanisms_paper_kergall.png" class="rounded-image" alt="Kergall Guiffard 2024">
+  <img src="images/mechanisms_paper_kergall.png" alt="Kergall Guiffard 2024">
 </div>
 <div class="abstract">
-   [**Impact of Broadband Internet on Preventive Healthcare Behaviours in Senegal**](https://www.insee.fr/en/statistiques/8186105?sommaire=8186112) (with [Pauline Kergall](https://sites.google.com/view/paulinekergall/home?authuser=0)) - *Economie et Statistique / Economics and Statistics, 542, 99–123, 2024* ([EN](https://jeanbaptisteguiffard.github.io/docs/articles/06_ES542_Kergall-Guiffard_EN.pdf)/[FR](https://jeanbaptisteguiffard.github.io/docs/articles/06_ES542_Kergall-Guiffard_FR.pdf))
+[**Impact of Broadband Internet on Preventive Healthcare Behaviours in Senegal**](https://www.insee.fr/en/statistiques/8186105?sommaire=8186112) (with Pauline Kergall) - *Economie et Statistique / Economics and Statistics, 2024*
 <p>In sub-Saharan African (SSA) countries the main channels of morbidity and mortality are preventable and treatable diseases. Yet, SSA countries invest little in preventive healthcare. Available literature has shown that providing health information can have an impact on health behaviors. In SSA, most of the internet traffic (fixed and mobile) goes through backbone networks. The arrival of optic fiber submarine cables in 2010 brought broadband connectivity to Senegal, allowing access to healthcare information online. Using the Demographic and Health Surveys (DHS) datasets combined with the Afterfibre database, and a Difference-in-Difference methodology, this study aims to assess the impact of the arrival of broadband internet on preventive health behaviors in Senegal. Broadband access is found to be positively associated with the use of bednet, mixed results are found regarding the use of antenatal care, while no impact on child immunization is found. If the positive impacts of internet access are confirmed, the expansion of broadband internet could have important positive spillover effects to improve health through increased access to information.</p>
 </div>
 </div>
 
-<h2 class="section-title">Work in Progress</h2>
+---
+
+## Working Papers
 
 <div class="content">
 <div class="figure">
-  <img src="images/plot_methodo_chap1_bon.jpeg" class="rounded-image" alt="Map chap 1">
+  <img src="images/plot_methodo_chap1_bon.jpeg" alt="Map chap 1">
 </div>
 <div class="abstract">
-   [**From Connection to Coordination: High-Speed Internet and Protests in Africa**](https://ssrn.com/abstract=4950715)
-<p>What is the role of broadband Internet in shaping political participation in Africa? This study leverages the staggered arrival of submarine Internet cables and the terrestrial backbone network in Africa to examine the influence of high-speed Internet on protests. Combining large-scale cross-country surveys on political behaviors and disaggregated data on conflict events, robust difference-in-differences estimates indicate a significant increase in both the likelihood of protest participation and the frequency of protests. This effect is particularly observed in countries that actively exercise political rights and civil liberties. The analysis explores two key mechanisms---information dissemination and coordination facilitation---with the latter identified as the predominant factor influencing the observed effects.</p>
+[**From Connection to Coordination: High-Speed Internet and Protests in Africa**](https://ssrn.com/abstract=4950715)
+<p>What is the role of broadband Internet in shaping political participation in Africa? This study leverages the staggered arrival of submarine Internet cables and the terrestrial backbone network in Africa to examine the influence of high-speed Internet on protests. Combining large-scale cross-country surveys on political behaviors and disaggregated data on conflict events, robust difference-in-differences estimates indicate a significant increase in both the likelihood of protest participation and the frequency of protests. This effect is particularly observed in countries that actively exercise political rights and civil liberties. The analysis explores two key mechanisms—information dissemination and coordination facilitation—with the latter identified as the predominant factor influencing the observed effects.</p>
 </div>
 </div>
-
 
 <div class="content">
 <div class="figure">
-  <img src="images/marginal_cost_MNO_germany.jpg" class="rounded-image" alt="marginal cost">
+  <img src="images/marginal_cost_MNO_germany.jpg" alt="marginal cost">
 </div>
 <div class="abstract">
-   **Welfare Cost of Mobile Spectrum (Mis)allocation** (with [Marc Ivaldi](https://www.tse-fr.eu/fr/people/marc-ivaldi), [Julienne Liang](https://www.researchgate.net/profile/Julienne-Liang) and Louise Aïmène) - [Working Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228058)
+**Welfare Cost of Mobile Spectrum (Mis)allocation** (with Marc Ivaldi, Julienne Liang, and Louise Aïmène) - [Working Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228058)
 <p>The conditions of spectrum allocation or reallocation are significant in determining the market structure in the telecom sector which in turn affects the prices and the quality of mobile networks. In a more concentrated market, the quantity of spectrum is less diluted, and operators can offer higher quality to their customers; In a more competitive market, where there are more operators, consumers can benefit from a lower price but at the expense of less spectrum for each operator. To address this trade-off, we first fit a demand model of mobile telecommunications services on a unique panel database for 23 MNOs of five major European countries from 2004Q3 to 2021Q4. Notably, we provide an adequate proxy of the mobile network quality for consumers by combining coverage data with spectrum data. Using this estimated demand model, we conduct a counterfactual simulation to measure the effect on consumer surplus of the incomplete spectrum allocation and the arrival of an additional operator in Germany. Results show that reallocating additional spectrum to three instead of four operators is consumer welfare improving as prices do not increase much while quality is significantly improved.</p>
 </div>
 </div>
 
-
 <div class="content">
 <div class="figure">
-  <img src="images/tunisie_maps_chap3.jpg" class="rounded-image" alt="Map tunisia">
+  <img src="images/tunisie_maps_chap3.jpg" alt="Map tunisia">
 </div>
 <div class="abstract">
-   **From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia** (with [Mohamed Ali Marouani](https://sites.google.com/view/mohamedali-marouani/home))
-<p>This paper investigates the impact of mobile broadband Internet on business creation in Tunisia. Using a rich dataset of Tunisian delegations, the study employs a count model to assess the influence of mobile broadband Internet quality and other infrastructure and delegation characteristics on firm location decisions. The empirical findings demonstrate a robust positive relationship between the density of 4G antennas per 10,000 inhabitants and the number of new business creations. Notably, this relationship is stronger and exhibits later effects in rural areas, particularly on the peripheries of major urban centers, suggesting varying rates of technology adoption and challenging the hypothesis of the ``death of distance" that broadband Internet was expected to bring. This research highlights the potential role of mobile broadband in stimulating local economic growth and sheds nuanced light on the economic implications of the digital divide.</p>
+[*From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia*](https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/) (with Mohamed Ali Marouani)
+<p>This paper investigates the impact of mobile broadband Internet on business creation in Tunisia. Using a rich dataset of Tunisian delegations, the study employs a count model and fixed effects panel data estimation to assess the influence of mobile broadband Internet quality and delegation characteristics on firm creation. The empirical findings demonstrate a robust positive relationship between the density of 4G antennas per 10,000 inhabitants and the number of new business creations (and a positive impact on net business creations). Notably, this relationship is stronger and exhibits later effects in rural areas, particularly on the peripheries of major urban centers, suggesting varying rates of technology adoption and challenging the hypothesis of the ``death of distance" that broadband Internet was expected to bring. This research highlights the potential role of mobile broadband in stimulating local economic growth and sheds nuanced light on the economic implications of the digital divide.</p>
 </div>
 </div>
+
+---
+
+<footer class="text-center" style="margin-top: 30px; font-size: 0.9em;">
+  © 2025 Jean-Baptiste Guiffard · Built with R Markdown
+</footer>
 
