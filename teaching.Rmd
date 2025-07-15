@@ -200,6 +200,30 @@ h1.title {
 
 *Work in progress*
 
+<!---
+
+## Université de Rouen 2025-2026
+
+### Licence 1 - Microéconomie 1
+
+
+
+
+
+### Licence 2 - Microéconomie 2
+
+
+### Licence 2 - Méthodes numériques appliquées
+
+
+### Licence 3 - Trade Policies
+
+
+### Master 1 - Micro-économique développement
+
+
+--->
+
 
 ## Ressources
 
@@ -280,41 +304,40 @@ h1.title {
 <ul>
   <li><a href="https://github.com/jeanbaptisteguiffard/jeanbaptisteguiffard.github.io/tree/gh-pages/courses/data_climate/training">Github repository - Training</a></li>
 </ul>
+  <li>Resources:</li>  
+<ul>
+  <li><a href="https://jeanbaptisteguiffard.github.io/courses/ressources/R/Cheatsheet_BASE_R.pdf">Cheatsheet Base R</a></li>
+  <li><a href="https://jeanbaptisteguiffard.github.io/courses/ressources/R/Cheatsheet_DPLYR_TIDYR_R.pdf">Cheatsheet DPLYR and TIDYR R</a></li>
+  <li><a href="https://jeanbaptisteguiffard.github.io/courses/ressources/R/Cheatsheet_GGPLOT2_R.pdf">Cheatsheet GGPLOT R</a></li>
 </ul>
-
+</ul>
 </details>
 </div>
-
 
 - <strong>Data Exploration and Modelling</strong> (IEDES, M1): STATA-based analysis of African firm survey data, focusing on gender wage inequality and labor discrimination.
 
 - <strong>Tutored Projects in Development Economics</strong> (IEDES, M2): Replication of the paper “This Mine is Mine! How Minerals Fuel Conflicts in Africa” (Berman et al., 2017) using R and STATA. Covers geospatial data, modeling, reproducibility, and empirical presentation skills.
-
----
-
-## Université de Rouen 2025-2026
-
-### Licence 1 - Microéconomie 1
-
-
-
-
-
-### Licence 2 - Microéconomie 2
-
-
-### Licence 2 - Méthodes numériques appliquées
-
-
-### Licence 3 - Trade Policies
-
-
-### Master 1 - Micro-économique développement
+<details><summary><strong>Course Materials</strong></summary>
+<div class="course-block">
+<ul> 
+  <li>Courses:</li>
+</ul>
+</details>
+</div>
 
 
 
 
----
+<!---
+- The classical regression model
+
+- Heteroscedasticity
+
+- Non-linear models
+
+**Data Exploration and Modelling (Inequalities, Discrimination)**
+
+**Tutored Projects in Development Economics**
 
 ARCHIVES ?
 
@@ -335,19 +358,6 @@ This course deepens the basics of econometrics, providing students with a solid 
 
 5. Count models: Poisson models
 
-<!---
-- The classical regression model
-
-- Heteroscedasticity
-
-- Non-linear models
-
-**Data Exploration and Modelling (Inequalities, Discrimination)**
-
-**Tutored Projects in Development Economics**
---->
-
-
 ### [**Master 2 - Climate and Data**](https://jeanbaptisteguiffard.github.io/courses_climatedata.html)
 
 
@@ -361,11 +371,6 @@ To become familiar with climate issues and to understand the construction of sus
 
 
 
-
-
-
-
-<!---
 **Statistics with R**
 
 Lessons:
@@ -379,41 +384,6 @@ Lessons:
 - Simple and Multiple Regressions
 
 --->
-
-
-----
-
-<h2 class="section-title">Ressources</h2>
-
-![](images/2_packages_tidyverse.png){ width=100%}
-
-- [Cheatsheet Base R](courses/ressources/R/Cheatsheet_BASE_R.pdf)
-
-- [Cheatsheet DPLYR and TIDYR R](courses/ressources/R/Cheatsheet_DPLYR_TIDYR_R.pdf)
-
-- [Cheatsheet GGPLOT R](courses/ressources/R/Cheatsheet_GGPLOT2_R.pdf) 
-
-
-
-
-<!---
-:::::: {.columns}
-::: {.column width="62%" data-latex="{0.62\textwidth}"}
-:::
-::: {.column width="4%" data-latex="{0.04\textwidth}"}
-\ 
-
-:::
-:::::: {.column width="34%" data-latex="{0.34\textwidth}"}
-:::
-::::::
---->
-
-
-\newline
-
-
-
 
 
 
