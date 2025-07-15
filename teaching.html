@@ -11,12 +11,12 @@
 
 
 
-<title>teaching.knit</title>
+<title>Jean-Baptiste Guiffard - Teaching</title>
 
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -108,6 +108,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="style_1.css" type="text/css" />
 
 
 
@@ -213,113 +214,12 @@ pre code {
 
 
 
+<h1 class="title toc-ignore">Jean-Baptiste Guiffard - Teaching</h1>
 
 </div>
 
 
-<style> 
-$basepadding: 16px;
-
-html, body {height: 100%;}
-
-body, h1, h2, h3, h4, h5, h6, p {
-    font-family: "Roboto Condensed", sans-serif;
-    color: #1c1c1c;
-    line-height: 1.4;
-}
-
-body {
-    background-color: #f2efed;
-    margin: auto;
-    width: 85%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-}
-
-.nav {
-    padding: 15px;
-    text-align: center;
-}
-
-.nav h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #1c1c1c;
-    padding-bottom: 10px;
-}
-
-.nav nav {
-    font-size: 18px;
-}
-
-.nav a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-.nav strong {
-    color: #ffffff;
-    font-weight: bold;
-    margin: 0 8px;  /* Ajoute un espace autour des barres verticales */
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    color: #4a90e2;
-}
-
-h1 {
-    font-size: 18pt;
-    color: #1c1c1c;
-    padding-top: 0pt;
-    padding-bottom: 0px;
-}
-
-h2 {
-    font-size: 14pt;
-    padding-top: $basepadding;
-    padding-bottom: 0px;
-}
-
-h3 {
-    font-size: 12pt;
-    padding-top: $basepadding;
-    padding-bottom: 0px;
-}
-
-p {
-    font-size: 12pt;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-a:link, a:visited {
-    color: #2a6e7c;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #2a6e7c;
-    text-decoration: underline;
-    text-underline-offset: 10%;
-}
-
-ul {
-    list-style-type: square;
-    padding-left: 16px;
-}
-
-li { padding: 4px 0px; }
-
-hr {
-    border: 0 none;
-    height: 3px;
-    color: #1c1c1c;
-    background-color: #1c1c1c;
-}
+<style>
 
 .social-links {
         text-align: center;
@@ -343,19 +243,243 @@ hr {
 .social-links img:hover {
         transform: scale(1.1);
 }
+
+.timeline-section {
+  border-left: 4px solid #007BFF;
+  margin-left: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline-part {
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-heading {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -49px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #007BFF;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 4px;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.experience-bg {
+  background-color: #f7faff; /* light blueish */
+}
+
+.education-bg {
+  background-color: #fef8f3; /* light orange/cream */
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 30px;
+}
+
+
+.header-left {
+  flex: 0 0 180px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-right {
+  flex: 1;
+  min-width: 220px;
+}
+
+.header-right h1 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.header-right h4 {
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  color: #444;
+}
+
+.header-right a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 16px;
+}
+
+li { padding: 4px 0px; }
+
+hr {
+    border: 0 none;
+    height: 3px;
+    color: #1c1c1c;
+    background-color: #1c1c1c;
+}
+
+
+.content {
+    overflow: hidden;
+    text-align: justify;
+}
+
+h1.title {
+  display: none;
+}
+
 </style>
-<p><link rel="shortcut icon" href="favicon.ico"></p>
-<p>
-<div class="row">
-<figure>
-<img alt="Sorbonne" src="images/P1300734_Paris_V_place_de_la_Sorbonne_rwk1.jpg" class="rounded-image"/>
-</figure>
+<div id="header" class="header-flex">
+
+<div class="header-left">
+<p><img src="images/profil_image_new.jpg" alt="Portrait Jean-Baptiste Guiffard" class="profile-pic"></p>
 </div>
-</p>
-<h2 class="section-title">
-IEDES - Master mention Etudes du Développement
-</h2>
-<p><strong>Master 1 - Econometrics</strong></p>
+<div class="header-right">
+<h4>
+Postdoctoral Researcher<br>CREST (Télécom Paris, Institut Polytechnique
+de Paris)
+</h4>
+<p>
+📧
+<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<p>
+📍 Telecom-Paris, Departement SES, 19 place Marguerite Perey, 91120,
+Palaiseau, France </a><br />
+
+<p>
+<p>🔗 <a href="https://github.com/jeanbaptisteguiffard">GitHub</a> | <a
+href="https://www.linkedin.com/in/jean-baptiste-guiffard-b7063090/">LinkedIn</a>
+| <a
+href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&amp;hl=fr&amp;oi=ao">Google
+Scholar</a></p>
+</div>
+</div>
+<p><a href="index.html">Home Page</a> |
+<a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum
+Vitae</a> | <a href="research.html">Research</a> |
+<a href="teaching.html">Teaching</a> | <a href="automat.html">AuToMat
+Seminar</a></p>
+<hr />
+<div id="teaching" class="section level2">
+<h2>Teaching</h2>
+<div id="quantitative-methods-econometrics" class="section level3">
+<h3>📊 Quantitative Methods &amp; Econometrics</h3>
+<ul>
+<li><p><strong>Applied Econometrics</strong> (École Polytechnique, M1):
+A course focused on causal inference in social sciences. Topics include
+RCTs, IVs, RDD, diff-in-diff, event-study, matching, and synthetic
+control. I lead tutorials based on critical reading.</p></li>
+<li><p><strong>Applied Econometrics</strong> (IEDES, M1): Regression
+techniques with a focus on nonlinearities, interaction effects,
+heteroskedasticity, and count/discrete choice models. The course
+includes theoretical sessions and seminars using R.</p></li>
+<li><p><strong>Collection and analysis of quantitative and qualitative
+data</strong> (UFTAM, M2): Course on research design, survey techniques,
+and mixed data analysis. Includes a final empirical project using
+R.</p></li>
+</ul>
+</div>
+<div id="development-economics-policy" class="section level3">
+<h3>🌍 Development Economics &amp; Policy</h3>
+<ul>
+<li><p><strong>Development Measurement</strong> (IEDES, M1): Covers
+poverty, inequality, and well-being indicators; measurement issues and
+aggregation/comparison methods.</p></li>
+<li><p><strong>Development Economics</strong> (IEDES, M1): TDs covering
+core theories, development aid, and public policy.</p></li>
+<li><p><strong>Conferences on policy and project in development</strong>
+(IEDES, M2): A professionalization-oriented course involving guest talks
+from alumni and practitioners from institutions like the World Bank,
+AFD, OECD, and NGOs.</p></li>
+</ul>
+</div>
+<div id="data-science-replication" class="section level3">
+<h3>📋 Data Science &amp; Replication</h3>
+<ul>
+<li><p><strong>Climate and Data</strong> (IEDES, M2): A course I fully
+designed, teaching R and QGIS for climate and development data analysis.
+Includes data scraping, visualization, and geospatial mapping.</p></li>
+<li><p><strong>Data Exploration and Modelling</strong> (IEDES, M1):
+STATA-based analysis of African firm survey data, focusing on gender
+wage inequality and labor discrimination.</p></li>
+<li><p><strong>Tutored Projects in Development Economics</strong>
+(IEDES, M2): Replication of the paper “This Mine is Mine! How Minerals
+Fuel Conflicts in Africa” (Berman et al., 2017) using R and STATA.
+Covers geospatial data, modeling, reproducibility, and empirical
+presentation skills.</p></li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="université-de-rouen-2025-2026" class="section level2">
+<h2>Université de Rouen 2025-2026</h2>
+<div id="licence-1---microéconomie-1" class="section level3">
+<h3>Licence 1 - Microéconomie 1</h3>
+</div>
+<div id="licence-2---microéconomie-2" class="section level3">
+<h3>Licence 2 - Microéconomie 2</h3>
+</div>
+<div id="licence-2---méthodes-numériques-appliquées"
+class="section level3">
+<h3>Licence 2 - Méthodes numériques appliquées</h3>
+</div>
+<div id="licence-3---trade-policies" class="section level3">
+<h3>Licence 3 - Trade Policies</h3>
+</div>
+<div id="master-1---micro-économique-développement"
+class="section level3">
+<h3>Master 1 - Micro-économique développement</h3>
+<hr />
+<p>ARCHIVES ?</p>
+</div>
+</div>
+<div id="iedes---master-mention-etudes-du-développement"
+class="section level2">
+<h2>IEDES - Master mention Etudes du Développement</h2>
+<div id="master-1---econometrics" class="section level3">
+<h3>Master 1 - Econometrics</h3>
 <p>This course deepens the basics of econometrics, providing students
 with a solid understanding of the estimation and modelling techniques
 essential for analysing economic problems related to development. The
@@ -378,10 +502,11 @@ following topics will be covered:</p>
 
 **Tutored Projects in Development Economics**
 --->
-<hr />
-<p><a
+</div>
+<div id="master-2---climate-and-data" class="section level3">
+<h3><a
 href="https://jeanbaptisteguiffard.github.io/courses_climatedata.html"><strong>Master
-2 - Climate and Data</strong></a></p>
+2 - Climate and Data</strong></a></h3>
 <p>To become familiar with climate issues and to understand the
 construction of sustainable development indicators, this course
 proposes:</p>
@@ -435,6 +560,8 @@ R</a></p></li>
 :::
 ::::::
 --->
+</div>
+</div>
 
 <footer role="contentinfo" id="site-footer">
 

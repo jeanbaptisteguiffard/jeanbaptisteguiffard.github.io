@@ -187,6 +187,7 @@ h1.title {
 <a href="index.html">Home Page</a> |
 <a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum Vitae</a> |
 <a href="research.html">Research</a> |
+<a href="teaching.html">Teaching</a> |
 <a href="automat.html">AuToMat Seminar</a>
 
 --- 
@@ -314,7 +315,7 @@ I am also strongly committed to teaching and research dissemination. I designed 
 </div>
 
 
-<!---
+
 ---
 
 ## Teaching
@@ -346,6 +347,7 @@ I am also strongly committed to teaching and research dissemination. I designed 
 - <strong>Tutored Projects in Development Economics</strong> (IEDES, M2): Replication of the paper “This Mine is Mine! How Minerals Fuel Conflicts in Africa” (Berman et al., 2017) using R and STATA. Covers geospatial data, modeling, reproducibility, and empirical presentation skills.
 
 
+<!---
 ---
 
 
