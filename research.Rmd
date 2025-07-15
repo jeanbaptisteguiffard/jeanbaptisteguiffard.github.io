@@ -94,7 +94,7 @@ output:
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   gap: 30px;
 }
 
@@ -212,21 +212,28 @@ h1.title {
 <div class="header-right">
 <h4>Postdoctoral Researcher<br>CREST (Télécom Paris, Institut Polytechnique de Paris)</h4>
 <p>
-<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+📧 <a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<p>
+📍 Telecom-Paris, Departement SES, 19 place Marguerite Perey, 91120, Palaiseau, France </a>  
+<p>
+🔗 [GitHub](https://github.com/jeanbaptisteguiffard) | [LinkedIn](https://www.linkedin.com/in/jean-baptiste-guiffard-b7063090/) | [Google Scholar](https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao)
+
+</div>
+
+
+
+
+</div>
+
 <a href="index.html">Home Page</a> |
 <a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum Vitae</a> |
 <a href="research.html">Research</a> |
-<a href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao">Google Scholar</a> |
 <a href="automat.html">AuToMat Seminar</a>
-</p>
-</div>
-
-</div>
 
 
 ---
 
-## Publications
+## 📚 Publications
 
 <div class="content">
 <div class="figure">
@@ -243,14 +250,14 @@ h1.title {
   <img src="images/mechanisms_paper_kergall.png" alt="Kergall Guiffard 2024">
 </div>
 <div class="abstract">
-[**Impact of Broadband Internet on Preventive Healthcare Behaviours in Senegal**](https://www.insee.fr/en/statistiques/8186105?sommaire=8186112) (with Pauline Kergall) - *Economie et Statistique / Economics and Statistics, 2024*
+[**Impact of Broadband Internet on Preventive Healthcare Behaviours in Senegal**](https://www.insee.fr/en/statistiques/8186105?sommaire=8186112) --- with Pauline Kergall - *Economie et Statistique / Economics and Statistics, 2024*
 <p>In sub-Saharan African (SSA) countries the main channels of morbidity and mortality are preventable and treatable diseases. Yet, SSA countries invest little in preventive healthcare. Available literature has shown that providing health information can have an impact on health behaviors. In SSA, most of the internet traffic (fixed and mobile) goes through backbone networks. The arrival of optic fiber submarine cables in 2010 brought broadband connectivity to Senegal, allowing access to healthcare information online. Using the Demographic and Health Surveys (DHS) datasets combined with the Afterfibre database, and a Difference-in-Difference methodology, this study aims to assess the impact of the arrival of broadband internet on preventive health behaviors in Senegal. Broadband access is found to be positively associated with the use of bednet, mixed results are found regarding the use of antenatal care, while no impact on child immunization is found. If the positive impacts of internet access are confirmed, the expansion of broadband internet could have important positive spillover effects to improve health through increased access to information.</p>
 </div>
 </div>
 
 ---
 
-## Working Papers
+## 📄 Working Papers
 
 <div class="content">
 <div class="figure">
@@ -267,7 +274,7 @@ h1.title {
   <img src="images/marginal_cost_MNO_germany.jpg" alt="marginal cost">
 </div>
 <div class="abstract">
-**Welfare Cost of Mobile Spectrum (Mis)allocation** (with Marc Ivaldi, Julienne Liang, and Louise Aïmène) - [Working Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228058)
+[**Welfare Cost of Mobile Spectrum (Mis)allocation**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4228058) --- with Marc Ivaldi, Julienne Liang, and Louise Aïmène
 <p>The conditions of spectrum allocation or reallocation are significant in determining the market structure in the telecom sector which in turn affects the prices and the quality of mobile networks. In a more concentrated market, the quantity of spectrum is less diluted, and operators can offer higher quality to their customers; In a more competitive market, where there are more operators, consumers can benefit from a lower price but at the expense of less spectrum for each operator. To address this trade-off, we first fit a demand model of mobile telecommunications services on a unique panel database for 23 MNOs of five major European countries from 2004Q3 to 2021Q4. Notably, we provide an adequate proxy of the mobile network quality for consumers by combining coverage data with spectrum data. Using this estimated demand model, we conduct a counterfactual simulation to measure the effect on consumer surplus of the incomplete spectrum allocation and the arrival of an additional operator in Germany. Results show that reallocating additional spectrum to three instead of four operators is consumer welfare improving as prices do not increase much while quality is significantly improved.</p>
 </div>
 </div>
@@ -277,10 +284,21 @@ h1.title {
   <img src="images/tunisie_maps_chap3.jpg" alt="Map tunisia">
 </div>
 <div class="abstract">
-[*From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia*](https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/) (with Mohamed Ali Marouani)
+[**From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia**](https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/) --- with Mohamed Ali Marouani
 <p>This paper investigates the impact of mobile broadband Internet on business creation in Tunisia. Using a rich dataset of Tunisian delegations, the study employs a count model and fixed effects panel data estimation to assess the influence of mobile broadband Internet quality and delegation characteristics on firm creation. The empirical findings demonstrate a robust positive relationship between the density of 4G antennas per 10,000 inhabitants and the number of new business creations (and a positive impact on net business creations). Notably, this relationship is stronger and exhibits later effects in rural areas, particularly on the peripheries of major urban centers, suggesting varying rates of technology adoption and challenging the hypothesis of the ``death of distance" that broadband Internet was expected to bring. This research highlights the potential role of mobile broadband in stimulating local economic growth and sheds nuanced light on the economic implications of the digital divide.</p>
 </div>
 </div>
+
+---
+
+## 📑 Ongoing Research
+
+
+1. **Digital platforms, high-speed Internet, and the transition from informal to formal employment in Brazil** (2025) --- with Joël Cariolle
+
+2. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
+
+
 
 ---
 

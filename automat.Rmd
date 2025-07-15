@@ -94,9 +94,10 @@ output:
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   gap: 30px;
 }
+
 
 .header-left {
   flex: 0 0 180px;
@@ -173,16 +174,23 @@ h1.title {
 <div class="header-right">
 <h4>Postdoctoral Researcher<br>CREST (Télécom Paris, Institut Polytechnique de Paris)</h4>
 <p>
-<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+📧 <a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<p>
+📍 Telecom-Paris, Departement SES, 19 place Marguerite Perey, 91120, Palaiseau, France </a>  
+<p>
+🔗 [GitHub](https://github.com/jeanbaptisteguiffard) | [LinkedIn](https://www.linkedin.com/in/jean-baptiste-guiffard-b7063090/) | [Google Scholar](https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao)
+
+</div>
+
+
+
+
+</div>
+
 <a href="index.html">Home Page</a> |
 <a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum Vitae</a> |
 <a href="research.html">Research</a> |
-<a href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao">Google Scholar</a> |
 <a href="automat.html">AuToMat Seminar</a>
-</p>
-</div>
-
-</div>
 
 
 
