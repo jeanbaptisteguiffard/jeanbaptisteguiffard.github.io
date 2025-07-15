@@ -266,9 +266,9 @@ h1.title {
   <li><a href="https://jeanbaptisteguiffard.github.io/courses/econometrics/effet_interaction.pdf">Jean-François Bickel. Les effets d'interaction.</a></li>
 </ul>
 </ul>
-
-</details>
 </div>
+</details>
+
 
 
 
@@ -309,10 +309,13 @@ h1.title {
   <li><a href="https://jeanbaptisteguiffard.github.io/courses/ressources/R/Cheatsheet_BASE_R.pdf">Cheatsheet Base R</a></li>
   <li><a href="https://jeanbaptisteguiffard.github.io/courses/ressources/R/Cheatsheet_DPLYR_TIDYR_R.pdf">Cheatsheet DPLYR and TIDYR R</a></li>
   <li><a href="https://jeanbaptisteguiffard.github.io/courses/ressources/R/Cheatsheet_GGPLOT2_R.pdf">Cheatsheet GGPLOT R</a></li>
+  <li><a href="https://github.com/spatialdataworkshop/spatialdataworkshop.github.io">Github repository - Spatial Data Workshop 2023</a></li>
 </ul>
+
 </ul>
-</details>
 </div>
+</details>
+
 
 - <strong>Data Exploration and Modelling</strong> (IEDES, M1): STATA-based analysis of African firm survey data, focusing on gender wage inequality and labor discrimination.
 
@@ -320,10 +323,14 @@ h1.title {
 <details><summary><strong>Course Materials</strong></summary>
 <div class="course-block">
 <ul> 
-  <li>Courses:</li>
+  <li>Training:</li>
+<ul>
+  <li><a href="https://github.com/jeanbaptisteguiffard/jeanbaptisteguiffard.github.io/tree/gh-pages/courses/projet_tutore">Github repository - Training</a></li>
 </ul>
-</details>
+</ul>
 </div>
+</details>
+
 
 
 
