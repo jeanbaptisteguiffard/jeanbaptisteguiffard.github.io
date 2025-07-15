@@ -348,13 +348,15 @@ I am also strongly committed to teaching and research dissemination. I designed 
 
 ---
 
---->
 
 ## Contact
 
 📧 <a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a>  
 📍 Telecom-Paris, Departement SES, 19 place Marguerite Perey, 91120, Palaiseau, France </a>  
 🔗 [GitHub](https://github.com/jeanbaptisteguiffard) | [LinkedIn](https://www.linkedin.com/in/jean-baptiste-guiffard-b7063090/)
+
+
+--->
 
 ---
 
