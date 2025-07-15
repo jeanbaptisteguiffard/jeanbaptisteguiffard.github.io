@@ -314,17 +314,18 @@ I am also strongly committed to teaching and research dissemination. I designed 
 
 </div>
 
-
-
 ---
+
+<!---
+
 
 ## Teaching
 
 ### 📊 Quantitative Methods & Econometrics
 
-- <strong>Applied Econometrics</strong> (École Polytechnique, M1): A course focused on causal inference in social sciences. Topics include RCTs, IVs, RDD, diff-in-diff, event-study, matching, and synthetic control. I lead tutorials based on critical reading.
+- **Applied Econometrics** (École Polytechnique, M1): A course focused on causal inference in social sciences. Topics include RCTs, IVs, RDD, diff-in-diff, event-study, matching, and synthetic control. I lead tutorials based on critical reading.
 
-- <strong>Applied Econometrics</strong> (IEDES, M1): Regression techniques with a focus on nonlinearities, interaction effects, heteroskedasticity, and count/discrete choice models. The course includes theoretical sessions and seminars using R.
+- [**Applied Econometrics**] (IEDES, M1): Regression techniques with a focus on nonlinearities, interaction effects, heteroskedasticity, and count/discrete choice models. The course includes theoretical sessions and seminars using R.
 
 - <strong>Collection and analysis of quantitative and qualitative data</strong> (UFTAM, M2): Course on research design, survey techniques, and mixed data analysis. Includes a final empirical project using R.
 

@@ -23,16 +23,16 @@ help(mean)
 
 # Set working directory
 
-#setwd("C:/Users/jbguiffard/OneDrive - Université Paris 1 Panthéon-Sorbonne/COURS_DISPENSES/IEDES_2022_2023/Data_Climat")
+setwd("C:/Users/Giffarrd/OneDrive - Université Paris 1 Panthéon-Sorbonne/COURS_DISPENSES/IEDES_2022_2023/Data_Climat")
 
 
 # Download data
 
-data <- read.csv2('course_1/DATA/owid-co2-data.csv', sep=",")
+data <- read.csv2('DATA/owid-co2-data.csv', sep=",")
 View(data)
 # Install and load packages
 
-install.packages('tidyverse')
+install.package('tidyverse')
 
 library(tidyverse)
 require(tidyverse)
@@ -130,7 +130,7 @@ rnorm(n=4)
 
 
 library(dplyr)
-data_pollution <- read.csv2('course_1/DATA/owid-co2-data.csv', sep=",")
+data_pollution <- read.csv2('DATA/owid-co2-data.csv', sep=",")
 #View(data_pollution)
 
 as.numeric(data_pollution$co2) %>% mean(na.rm=T)
@@ -219,7 +219,7 @@ data_continents %>%
   filter(year==2019)
 
 # Join datasets
-Metadata_Country <- read.csv2('course_1/DATA/Metadata_Country.csv', sep=",")%>%
+Metadata_Country <- read.csv2('DATA/Metadata_Country.csv', sep=",")%>%
   rename("Country_code" = "Country.Code")
 
 join_pollution_wb_data <- data_pollution_num %>%

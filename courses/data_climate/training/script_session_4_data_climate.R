@@ -17,9 +17,6 @@ library(stringr)
 
 
 
-setwd('C:/Users/jbguiffard/OneDrive - Université Paris 1 Panthéon-Sorbonne/COURS_DISPENSES/IEDES_2023_2024/M2/Data_Climat')
-
-
 
 
 # Scrapper Wikipedia
@@ -50,8 +47,8 @@ batailles_afr <- subset(batailles_afr, Résultat!=guerre)
 page <- read_html('https://www.gouvernement.fr/discours-et-rapports?content_type%5B%5D=speech')
 
 
-#raw_list <- page %>%
-#  html_nodes('div')
+raw_list <- page %>%
+  html_nodes('div')
 
 
 raw_list <- page %>%
@@ -99,11 +96,10 @@ for(row_x in 1:nrow(bdd1)){
   speech_link <- paste('https://www.gouvernement.fr',bdd1[row_x,"links"], sep="")
   page_speech<- read_html(speech_link)
   speech_x <- unlist(page_speech %>%
-    html_nodes(css="section[class='contents__content fr-mb-10w']") %>%
+    #html_nodes(css="section[class='contents__content fr-mb-10w']") %>%
     html_nodes(css="div[class='fr-col-lg-9 fr-col-offset-lg-1']") %>%
-    html_text() %>%
-      trimws())
-    
+    html_text()) %>%
+    trimws()
   bdd1[row_x,'speech'] <- do.call(paste, c(as.list(speech_x), sep = " "))
   Sys.sleep(2)
 }
@@ -124,7 +120,7 @@ for (x in 1:35){
   page_x <- read_html(paste('https://www.gouvernement.fr/discours-et-rapports?page=',x,'&content_type%5B%5D=speech',sep=""))
   Sys.sleep(2)
   
-  raw_list <- page_x %>%
+  raw_list <- page %>%
     html_nodes(css="div[class='fr-card__body']")
   
   

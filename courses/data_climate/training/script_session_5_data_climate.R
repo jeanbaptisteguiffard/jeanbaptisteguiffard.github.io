@@ -29,7 +29,7 @@ library(tidytext)
 
 #install.packages("tidyft") #Pour le recodage des variables textuelles 
 library(tidyft)
-bdd_speech <- read.csv2('DATA/bdd_discours_2007_2022.csv') %>%
+bdd_speech <- read.csv2('Data_Climat/DATA/bdd_discours_2007_2022.csv') %>%
   as.data.table() %>%
   utf8_encoding(titles) %>%
   utf8_encoding(dates) %>%
@@ -199,7 +199,7 @@ ggplot(associations[1:10,], aes(x = terme, y = corr)) +
 
 library(reshape2)
 
-prenoms_fr <-read.csv2('DATA/Prenoms.csv') 
+prenoms_fr <-read.csv2('Data_Climat/DATA/Prenoms.csv') 
 
 #%>% tidyft::utf8_encoding(X01_prenom) %>%
  # as.data.frame()
@@ -239,9 +239,9 @@ ggraph(bigram_graph, layout = "fr") +
 library("pdftools")
 
 
-pdf.text_report_2001 <- pdftools::pdf_text("DATA/2001_policy_report.pdf")
-pdf.text_report_2007 <- pdftools::pdf_text("DATA/2007_policy_report.pdf")
-pdf.text_report_2014 <- pdftools::pdf_text("DATA/2014_policy_report.pdf")
+pdf.text_report_2001 <- pdftools::pdf_text("Data_Climat/DATA/2001_policy_report.pdf")
+pdf.text_report_2007 <- pdftools::pdf_text("Data_Climat/DATA/2007_policy_report.pdf")
+pdf.text_report_2014 <- pdftools::pdf_text("Data_Climat/DATA/2014_policy_report.pdf")
 
 # selection d'une page en particulier
 # cat(pdf.text_report_2001[[8]]) 

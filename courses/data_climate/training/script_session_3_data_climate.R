@@ -7,7 +7,7 @@
 # Données et Climat Session 3 
 
 #setwd('C:/Users/jbgui/OneDrive - Université Paris 1 Panthéon-Sorbonne/COURS_DISPENSES/IEDES_2022_2023/Data_Climat')
-setwd('C:/Users/jbguiffard/OneDrive - Université Paris 1 Panthéon-Sorbonne/Documents/jeanbaptisteguiffard.github.io/courses/data_climate/training/course_1')
+
 library(flextable)
 library(dplyr)
 library(magrittr)
@@ -15,7 +15,6 @@ library(magrittr)
 # Traitement des données cartographiques avec le package sf
 
 library(sf)
-library(ggplot2)
 world_map <- st_read('DATA/world-administrative-boundaries.shp')
 plot(st_geometry(world_map))
 
@@ -61,24 +60,6 @@ nuclear_pw_plants.pts <- st_as_sf(nuclear_pw_plants,
 plot(st_geometry(Europe_map))
 plot(nuclear_pw_plants.pts,col="orange",cex=1,pch=16,add=T)
 
-st_crs(nuclear_pw_plants.pts) <- 4326
-nuclear_pw_plants.pts <- st_transform(nuclear_pw_plants.pts, st_crs(Europe_map))
-
-nuclear_plants_country <- st_intersection(Europe_map, nuclear_pw_plants.pts)
-plot(st_geometry(Europe_map['continent']))
-plot(nuclear_plants_country['iso3'], add=TRUE)
-
-gg3 <- ggplot() +
-  geom_sf(data = Europe_map, fill = "gray90", color = "grey") +
-  geom_sf(data = nuclear_plants_country, aes(color = iso3), size = 1) +
-  scale_color_viridis_d(name = "Country name", aesthetics = "color") + # For events
-  theme_minimal() +
-  labs(title = "Localisation des centrales nucléaires") +
-  theme(legend.position = "bottom") 
-
-gg3
-
-
 n_pw_plts_country <- st_intersects(Europe_map, nuclear_pw_plants.pts)
 Europe_map$n_nuclear_pw <- sapply(X = n_pw_plts_country, FUN = length) 
 plot(Europe_map['n_nuclear_pw'])
@@ -98,22 +79,14 @@ m1 <- leaflet(data = power_plants_points_europe) %>% addTiles() %>%
              clusterOptions = markerClusterOptions())
 
 
-
 # Notre première carte avec ggplot
 
-data_pollution <- read.csv2('DATA/owid-co2-data.csv', sep=",")
-Metadata_Country <- read.csv2('DATA/Metadata_Country.csv', sep=",") %>%
-  #rename("Country_code" = "ï..Country.Code")
-  rename("Country_code" = "Country.Code")
+data_pollution <- read.csv2('DATA/co2_clean.csv', sep=";")
+Metadata_Country <- read.csv2('DATA/Metadata_Country.csv', sep=",")
+#rename("Country_code" = "Country.Code")
 
-data_pollution_num <- data_pollution %>%
-  select(-c(country,iso_code))%>%
-  mutate_if(is.character, as.numeric) %>%
-  cbind(data_pollution[,c("country","iso_code")])
-
-
-join_pollution_wb_data <- data_pollution_num %>%
-  dplyr::inner_join(Metadata_Country, by = c("iso_code" = "Country_code"))
+join_pollution_wb_data <- data_pollution %>%
+  dplyr::inner_join(Metadata_Country, by = c("iso_code" = "Country.Code"))
 
 join_pollution_wb_data <- join_pollution_wb_data %>%
   filter(country != "") %>%
@@ -200,11 +173,11 @@ coal_pw_plants <- subset(power_plants_points, fuel1 == "Coal")
 n_pw_plts_coal <- st_intersects(world_map, coal_pw_plants)
 world_map$n_coal_pw <- sapply(X = n_pw_plts_coal, FUN = length) 
 
+
+world_map$breaks_coal <- ifelse(is.na(world_map$breaks_coal),"0",world_map$breaks_coal)
 world_map$breaks_coal <-  cut(as.numeric(world_map$n_coal_pw),
                               breaks=c(0,10,20,30,40,50,100,700),
                               labels=c("[0;10[", "[10;20[", "[20;30[", "[30;40[","[40;50[", "[50;100[", "[100;700["))
-world_map$breaks_coal <- ifelse(is.na(world_map$breaks_coal),"0",world_map$breaks_coal)
-
  
 
 map_coal <- ggplot() +
