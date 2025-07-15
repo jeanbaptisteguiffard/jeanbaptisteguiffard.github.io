@@ -314,41 +314,14 @@ I am also strongly committed to teaching and research dissemination. I designed 
 
 </div>
 
----
 
 <!---
 
 
-## Teaching
-
-### 📊 Quantitative Methods & Econometrics
-
-- **Applied Econometrics** (École Polytechnique, M1): A course focused on causal inference in social sciences. Topics include RCTs, IVs, RDD, diff-in-diff, event-study, matching, and synthetic control. I lead tutorials based on critical reading.
-
-- [**Applied Econometrics**] (IEDES, M1): Regression techniques with a focus on nonlinearities, interaction effects, heteroskedasticity, and count/discrete choice models. The course includes theoretical sessions and seminars using R.
-
-- <strong>Collection and analysis of quantitative and qualitative data</strong> (UFTAM, M2): Course on research design, survey techniques, and mixed data analysis. Includes a final empirical project using R.
 
 
-### 🌍 Development Economics & Policy
-
-- <strong>Development Measurement</strong> (IEDES, M1): Covers poverty, inequality, and well-being indicators; measurement issues and aggregation/comparison methods.
-
-- <strong>Development Economics</strong> (IEDES, M1): TDs covering core theories, development aid, and public policy.
-
-- <strong>Conferences on policy and project in development</strong> (IEDES, M2): A professionalization-oriented course involving guest talks from alumni and practitioners from institutions like the World Bank, AFD, OECD, and NGOs.
 
 
-### 📋 Data Science & Replication
-
-- <strong>Climate and Data</strong> (IEDES, M2): A course I fully designed, teaching R and QGIS for climate and development data analysis. Includes data scraping, visualization, and geospatial mapping.
-
-- <strong>Data Exploration and Modelling</strong> (IEDES, M1): STATA-based analysis of African firm survey data, focusing on gender wage inequality and labor discrimination.
-
-- <strong>Tutored Projects in Development Economics</strong> (IEDES, M2): Replication of the paper “This Mine is Mine! How Minerals Fuel Conflicts in Africa” (Berman et al., 2017) using R and STATA. Covers geospatial data, modeling, reproducibility, and empirical presentation skills.
-
-
-<!---
 ---
 
 
@@ -361,7 +334,7 @@ I am also strongly committed to teaching and research dissemination. I designed 
 
 --->
 
----
+
 
 <footer class="text-center" style="margin-top: 30px; font-size: 0.9em;">
   © 2025 Jean-Baptiste Guiffard · Built with R Markdown
