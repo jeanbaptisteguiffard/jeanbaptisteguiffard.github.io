@@ -195,7 +195,7 @@ h1.title {
 
 ---
 
-## Teaching
+## Teaching 2025-2026
 
 
 *Work in progress*
@@ -205,8 +205,9 @@ h1.title {
 
 ### 📊 Quantitative Methods & Econometrics
 
-<details>
-<summary><strong>Applied Econometrics</strong> (École Polytechnique, M1): A course focused on causal inference in social sciences. Topics include RCTs, IVs, RDD, diff-in-diff, event-study, matching, and synthetic control. I lead tutorials based on critical reading.</summary>
+
+- <strong>Applied Econometrics</strong> (École Polytechnique, M1): A course focused on causal inference in social sciences. Topics include RCTs, IVs, RDD, diff-in-diff, event-study, matching, and synthetic control. I lead tutorials based on critical reading.
+<details><summary><strong>Course Materials</strong></summary>
 <div class="course-block">
 <ul>
   <li><a href="https://synapses.polytechnique.fr/catalogue/2024-2025/ue/7646/ECO-52062-EP-econometrie-appliquee-2?from=D5">Synapses of the course</a></li>
@@ -217,8 +218,8 @@ h1.title {
 
 
 
-- <summary><strong>Applied Econometrics</strong> (IEDES, Paris 1 Panthéon-Sorbonne M1): Regression techniques with a focus on nonlinearities, interaction effects, heteroskedasticity, and count/discrete choice models. The course includes theoretical sessions and seminars using R.</summary>
-<details>
+- <strong>Applied Econometrics</strong> (IEDES, Paris 1 Panthéon-Sorbonne M1): Regression techniques with a focus on nonlinearities, interaction effects, heteroskedasticity, and count/discrete choice models. The course includes theoretical sessions and seminars using R.
+<details><summary><strong>Course Materials</strong></summary>
 <div class="course-block">
 <ul> 
   <li>Courses:</li>
@@ -240,7 +241,7 @@ h1.title {
   <li><a href="https://jeanbaptisteguiffard.github.io/courses/econometrics/Caffo_Regression models for data science in R_2015.pdf">Caffo, B. (2015). Regression models for data science in R. A companion book for the Coursera Regression Models class.</a></li>
   <li><a href="https://jeanbaptisteguiffard.github.io/courses/econometrics/effet_interaction.pdf">Jean-François Bickel. Les effets d'interaction.</a></li>
 </ul>
-<ul> 
+</ul>
 
 </details>
 </div>
@@ -263,7 +264,27 @@ h1.title {
 
 ### 📋 Data Science & Replication
 
-- <strong>Climate and Data</strong> (IEDES, M2): A course I fully designed, teaching R and QGIS for climate and development data analysis. Includes data scraping, visualization, and geospatial mapping.
+- <strong>Climate and Data</strong> (IEDES, M2): Teaching R and QGIS for climate and development data analysis. Includes data scraping, visualization, and geospatial mapping.
+<details><summary><strong>Course Materials</strong></summary>
+<div class="course-block">
+<ul> 
+  <li>Courses:</li>
+<ul>
+  <li><a href="https://jeanbaptisteguiffard.github.io/courses/data_climate/slides/Data_climate_cours_1.pdf">The Basics of R / Manipulating dataset with the DPLYR package</a></li>
+  <li><a href="https://jeanbaptisteguiffard.github.io/courses/data_climate/slides/Data_climate_cours_2.pdf">Graphic representations with GGPLOT</a></li>
+  <li><a href="https://jeanbaptisteguiffard.github.io/courses/data_climate/slides/Data_climate_cours_3.pdf">Making maps with R</a></li>
+  <li><a href="https://jeanbaptisteguiffard.github.io/courses/data_climate/slides/Data_climate_cours_4.pdf">Web scraping with R</a></li>
+  <li><a href="https://jeanbaptisteguiffard.github.io/courses/data_climate/slides/Data_climate_cours_5.pdf">Extracting and analyzing textual data using R</a></li>
+</ul>
+  <li>Training:</li>
+<ul>
+  <li><a href="https://github.com/jeanbaptisteguiffard/jeanbaptisteguiffard.github.io/tree/gh-pages/courses/data_climate/training">Github repository - Training</a></li>
+</ul>
+</ul>
+
+</details>
+</div>
+
 
 - <strong>Data Exploration and Modelling</strong> (IEDES, M1): STATA-based analysis of African firm survey data, focusing on gender wage inequality and labor discrimination.
 
