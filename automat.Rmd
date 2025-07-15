@@ -185,11 +185,16 @@ hr {
 
 ---
 
+## AuToMat Seminar
+
 <div class="content">
+
+<!---
 <div class="figure" style="text-align:center;">
   <img src="images/pavillon_Indochine - Copie1.jpg" alt="Pavillon picture" style="max-width:300px; width:100%; border-radius:10px; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);">
   <figcaption><i>Jardin tropical René-Dumont, January 2022</i></figcaption>
 </div>
+--->
 
 <p>Welcome to the Methodological Seminar hosted by the UMR Development & Societies! This seminar is open to PhD students, senior researchers, IEDES students, and external individuals interested in attending.</p>
 
@@ -213,6 +218,17 @@ Passcode: 378733
 </p>
 
 <hr>
+
+<h2 class="section-title">2024-2025 (Fourth Edition)</h2>
+
+
+- **vendredi 17 janvier 2025 (12h30-14h00)** : [Jérémy Do Nascimento](https://jdnmiguel.github.io/) (économiste, Université de Bordeaux)
+
+*Mesurer et tracer la production au sein des chaînes de valeurs agricoles*
+
+- **Vendredi 13 décembre 2024** : [Léa Macias](https://scholar.google.com/citations?user=trelh9UAAAAJ&hl=fr) (anthropologue, AFD) 
+
+*Une anthropologie de l'humanitaire numérique - mise en données et production de savoirs*
 
 <h2 class="section-title">2023-2024 (Third Edition)</h2>
 
