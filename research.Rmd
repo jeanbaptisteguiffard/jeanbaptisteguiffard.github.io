@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Jean-Baptiste Guiffard - Research"
 output:
   html_document:
     toc: false
@@ -193,6 +193,10 @@ hr {
     max-width: 100%;
     width: 100%;
   }
+}
+
+h1.title {
+  display: none;
 }
 
 </style>
