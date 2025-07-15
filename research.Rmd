@@ -301,7 +301,6 @@ h1.title {
 
 
 
----
 
 <footer class="text-center" style="margin-top: 30px; font-size: 0.9em;">
   © 2025 Jean-Baptiste Guiffard · Built with R Markdown

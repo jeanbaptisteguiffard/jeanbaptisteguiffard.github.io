@@ -161,6 +161,8 @@ h1.title {
   display: none;
 }
 
+
+
 </style>
 
 
@@ -225,7 +227,7 @@ h1.title {
 --->
 
 
-## Ressources
+## Archives
 
 ### 📊 Quantitative Methods & Econometrics
 
