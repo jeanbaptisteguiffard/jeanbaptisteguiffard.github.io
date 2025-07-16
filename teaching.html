@@ -208,16 +208,6 @@ pre code {
 
 <div class="nav">
     <h1>Jean-Baptiste Guiffard</h1>
-</div>
-
-<div id="header">
-
-
-
-<h1 class="title toc-ignore">Jean-Baptiste Guiffard - Teaching</h1>
-
-</div>
-
 
 <style>
 
@@ -307,7 +297,6 @@ pre code {
   gap: 30px;
 }
 
-
 .header-left {
   flex: 0 0 180px;
 }
@@ -370,63 +359,126 @@ h1.title {
   display: none;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  gap: 20px;
+}
 
+.content .figure {
+  flex: 0 0 300px;
+  max-width: 300px;
+}
+
+.content .figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content .abstract {
+  flex: 1;
+  min-width: 220px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .content .figure,
+  .content .abstract {
+    max-width: 100%;
+    width: 100%;
+  }
+}
 
 </style>
+
 <div id="header" class="header-flex">
 
 <div class="header-left">
-<p><img src="images/profil_image_new.jpg" alt="Portrait Jean-Baptiste Guiffard" class="profile-pic"></p>
+<img src="images/profil_image_new.jpg" alt="Portrait Jean-Baptiste Guiffard" class="profile-pic">
 </div>
-<div class="header-right">
-<h4>
-Postdoctoral Researcher<br>CREST (Télécom Paris, Institut Polytechnique
-de Paris)
-</h4>
-<p>
-📧
-<a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
-<p>
-📍 Telecom-Paris, Departement SES, 19 place Marguerite Perey, 91120,
-Palaiseau, France </a><br />
 
+<div class="header-right">
+<h4>Postdoctoral Researcher<br>CREST (Télécom Paris, Institut Polytechnique de Paris)</h4>
 <p>
-<p>🔗 <a href="https://github.com/jeanbaptisteguiffard">GitHub</a> | <a
-href="https://www.linkedin.com/in/jean-baptiste-guiffard-b7063090/">LinkedIn</a>
-| <a
-href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&amp;hl=fr&amp;oi=ao">Google
-Scholar</a></p>
+📧 <a href="mailto:guiffard@telecom-paris.fr">guiffard@telecom-paris.fr</a><br>
+<p>
+📍 Telecom-Paris, Departement SES, 19 place Marguerite Perey, 91120, Palaiseau, France </a>  
+<p>
+🔗 <a href="https://github.com/jeanbaptisteguiffard">GitHub</a> | <a href="https://www.linkedin.com/in/jean-baptiste-guiffard-b7063090/">LinkedIn</a> | <a href="https://scholar.google.fr/citations?user=BnfXmC4AAAAJ&hl=fr&oi=ao">Google Scholar</a>
+
+
+
+
+
 </div>
+
+
+
+
 </div>
-<p><a href="index.html">Home Page</a> |
-<a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum
-Vitae</a> | <a href="research.html">Research</a> |
-<a href="teaching.html">Teaching</a> | <a href="automat.html">AuToMat
-Seminar</a></p>
+
+<a href="index.html">Home Page</a> |
+<a href="https://jeanbaptisteguiffard.github.io/CV/cv_guiffard_jb.pdf">Curriculum Vitae</a> |
+<a href="research.html">Research</a> |
+<a href="teaching.html">Teaching</a> |
+<a href="automat.html">AuToMat Seminar</a>
+
+</div>
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Jean-Baptiste Guiffard - Teaching</h1>
+
+</div>
+
+
 <hr />
 <div id="teaching-2025-2026" class="section level2">
 <h2>Teaching 2025-2026</h2>
 <p><em>Work in progress</em></p>
 <!---
 
-## Université de Rouen 2025-2026
 
-### Licence 1 - Microéconomie 1
+- **Consommateurs et Producteurs** (Université de Rouen, L1)
+<details><summary><strong>Course Materials</strong></summary>
+<div class="course-block">
+<ul> 
+  <li>Courses:</li>
+<ul>
+
+</ul>
+  <li>Seminars:</li>
+<ul>
+
+</ul>
+  <li>Ressources:</li>
+<ul>
+
+</ul>
+</ul>
+</div>
+</details>
+
+- **Marchés et Systèmes de Prix** (Université de Rouen, L2)
 
 
+- **Méthodes numériques appliquées** (Université de Rouen, L2)
 
 
-
-### Licence 2 - Microéconomie 2
-
-
-### Licence 2 - Méthodes numériques appliquées
+- **Trade Policies** (Université de Rouen, L3)
 
 
-### Licence 3 - Trade Policies
-
-
-### Master 1 - Micro-économique développement
+- **Topics in Micro-Development Economics** (Université de Rouen, M1)
 
 
 --->
@@ -590,6 +642,10 @@ Training:
 <li>
 <a href="https://github.com/jeanbaptisteguiffard/jeanbaptisteguiffard.github.io/tree/gh-pages/courses/data_climate/training">Github
 repository - Training</a>
+</li>
+<li>
+<a href="https://github.com/jeanbaptisteguiffard/intro_r_IEDES/archive/refs/heads/main.zip">Github
+repository - Introduction to R</a>
 </li>
 </ul>
 <li>
