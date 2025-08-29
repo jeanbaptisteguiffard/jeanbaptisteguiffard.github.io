@@ -35,3 +35,5 @@ vignettes/*.pdf
 
 # also
 README.html
+courses/micro_1.html
+courses/micro_1.Rmd

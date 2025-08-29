@@ -15,7 +15,9 @@ output:
 
 ## About
 
-I am currently a postdoctoral researcher in economics at [Télécom Paris](https://www.telecom-paris.fr/fr/ecole/departements-enseignement-recherche/sciences-economiques-sociales), affiliated with the Centre de Recherche en Économie et Statistique ([CREST](https://crest.science/)) and the [Institut Polytechnique de Paris](https://www.ip-paris.fr/). I am also an associate researcher at the [UMR Développement et Sociétés](https://umr-devsoc.pantheonsorbonne.fr/), and I teach at [École Polytechnique](https://www.polytechnique.edu/) and the Institut d'Études du Développement de la Sorbonne ([IEDES](https://iedes.pantheonsorbonne.fr/)).
+I am an associate professor in economics at [Université de Rouen-Normandie](https://www.univ-rouen.fr/), affiliated with the [LERN](https://lern.univ-rouen.fr/). 
+
+I was formerly a postdoctoral researcher at [Télécom Paris](https://www.telecom-paris.fr/fr/ecole/departements-enseignement-recherche/sciences-economiques-sociales), affiliated with the Centre de Recherche en Économie et Statistique ([CREST](https://crest.science/)) and the [Institut Polytechnique de Paris](https://www.ip-paris.fr/). I am also an associate researcher at the [UMR Développement et Sociétés](https://umr-devsoc.pantheonsorbonne.fr/), and I teach at [École Polytechnique](https://www.polytechnique.edu/) and the Institut d'Études du Développement de la Sorbonne ([IEDES](https://iedes.pantheonsorbonne.fr/)).
 
 I hold a PhD in economics from Université Paris 1 Panthéon-Sorbonne. My research lies at the intersection of digital and development economics, with a focus on causal impact evaluation and geospatial data analysis. Beyond connectivity, my recent work explores the role of digital platforms and artificial intelligence in shaping labor market dynamics.
 

@@ -56,9 +56,8 @@ Date of Birth: January 9, 1995 \\
 \noindent\rule{\textwidth}{0.2pt}
 
 
-- Post-doctoral researcher, Telecom-Paris, (2024 - *Present*)
+- Post-doctoral researcher, Telecom-Paris, (2024 - 2025)
 
-- Research associate at [UMR Développement et Sociétés](https://umr-devsoc.pantheonsorbonne.fr/), (2024 - *Present*)
 
 - [Evidence Policy Impact Lab Member](https://www.smu.tn/fondation-smu/epi-lab-member-jean-baptiste-guiffard)
 
