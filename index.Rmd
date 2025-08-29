@@ -74,7 +74,7 @@ I am also strongly committed to teaching and research dissemination. I designed 
 <h3 class="timeline-heading">💼 Experience</h3>
 
 <div class="timeline-item">
-<div class="timeline-date">2024 – Present</div>
+<div class="timeline-date">2024 – 2025</div>
 <div class="timeline-content">
 <h4>Postdoctoral Researcher – CREST (Télécom Paris)</h4>
 <p>Research on broadband infrastructure and platforms (ANR HYBRID).</p>
