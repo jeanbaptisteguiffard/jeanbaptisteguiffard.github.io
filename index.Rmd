@@ -9,6 +9,8 @@ output:
     css: style_1.css
 ---
 
+<link rel="icon" type="image/jpg" href="favicon.jpg" />
+
 
 
 --- 
