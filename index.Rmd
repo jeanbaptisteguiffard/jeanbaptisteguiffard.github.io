@@ -17,7 +17,7 @@ output:
 
 ## About
 
-I am an associate professor in economics at [Université de Rouen-Normandie](https://www.univ-rouen.fr/), affiliated with the [LERN](https://lern.univ-rouen.fr/). 
+I am an assistant professor in economics at [Université de Rouen-Normandie](https://www.univ-rouen.fr/), affiliated with the [LERN](https://lern.univ-rouen.fr/). 
 
 I was formerly a postdoctoral researcher at [Télécom Paris](https://www.telecom-paris.fr/fr/ecole/departements-enseignement-recherche/sciences-economiques-sociales), affiliated with the Centre de Recherche en Économie et Statistique ([CREST](https://crest.science/)) and the [Institut Polytechnique de Paris](https://www.ip-paris.fr/). I am also an associate researcher at the [UMR Développement et Sociétés](https://umr-devsoc.pantheonsorbonne.fr/), and I teach at [École Polytechnique](https://www.polytechnique.edu/) and the Institut d'Études du Développement de la Sorbonne ([IEDES](https://iedes.pantheonsorbonne.fr/)).
 
@@ -32,7 +32,7 @@ I am also strongly committed to teaching and research dissemination. I designed 
 ---
 
 ## News
-- 📢 I will join the [LERN](https://lern.univ-rouen.fr/) team as a associate professor in September 2025!
+- 📢 I will join the [LERN](https://lern.univ-rouen.fr/) team as a assistant professor in September 2025!
 - 📢 *On the job market 2024-2025!*
 - 📚 New Working paper: [*From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia*](https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/) (2025).
 - 🎓 PhD defended in Sept. 2024 at Université Paris 1.
