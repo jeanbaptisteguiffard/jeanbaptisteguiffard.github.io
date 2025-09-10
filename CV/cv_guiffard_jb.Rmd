@@ -24,9 +24,9 @@ header-includes:
 \begin{minipage}[t]{0.55\textwidth}
 \raggedright
 \textbf{Contact information}\\
-Email: \href{mailto:guiffard@telecom-paris.fr}{guiffard@telecom-paris.fr} \\
+Email: \href{mailto:jean-baptiste.guiffard@univ-rouen.fr}{jean-baptiste.guiffard@univ-rouen.fr} \\
 Phone: +33 6 87 96 61 05 \\
-Address: 19 place Marguerite Perey, 91120, Palaiseau, France \\
+Address: 3 avenue Pasteur, 76000 Rouen, France \\
 Website: \href{https://jeanbaptisteguiffard.github.io/}{jeanbaptisteguiffard.github.io}
 \end{minipage}
 \hfill
@@ -65,7 +65,7 @@ Date of Birth: January 9, 1995 \\
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
 
-- Post-doctoral researcher, Telecom-Paris, (2024 - 2025)
+- Post-doctoral researcher, Telecom-Paris, CREST (2024 - 2025)
 
 # Doctoral Studies
 \vspace{-23pt}
