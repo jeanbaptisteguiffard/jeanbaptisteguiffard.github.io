@@ -61,9 +61,9 @@ I am also strongly committed to teaching and research dissemination. I designed 
 ### 📑 Ongoing Research
 
 
-1. **Digital platforms, high-speed Internet, and the transition from informal to formal employment in Brazil** (2025) --- with Joël Cariolle
+1. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
 
-2. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
+2. **The impact of fixed and mobile broadband on firm performances in Tunisia** (2025) --- with Jawhar Abidi, Massimiliano Calì and Mohamed Ali Marouani.
 
 
 ---
@@ -73,6 +73,14 @@ I am also strongly committed to teaching and research dissemination. I designed 
 <div class="timeline-section">
 <div class="timeline-part experience-bg">
 <h3 class="timeline-heading">💼 Experience</h3>
+
+
+<div class="timeline-item">
+<div class="timeline-date">2025 – </div>
+<div class="timeline-content">
+<h4>Assistant Professor – LERN (Université de Rouen Normandie)</h4>
+</div>
+</div>
 
 <div class="timeline-item">
 <div class="timeline-date">2024 – 2025</div>
