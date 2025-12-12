@@ -61,6 +61,7 @@ Date of Birth: January 9, 1995 \\
 
 - [Evidence Policy Impact Lab Member](https://www.smu.tn/fondation-smu/epi-lab-member-jean-baptiste-guiffard)
 
+
 # Past Positions
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
@@ -118,9 +119,13 @@ Date of Birth: January 9, 1995 \\
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
 
+<!---
 1. **Digital platforms, high-speed Internet, and the transition from informal to formal employment in Brazil** (2025) --- with Joël Cariolle
+--->
 
-2. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
+1. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
+
+2. **The impact of fixed and mobile broadband on firm performances in Tunisia** (2025) --- with Jawhar Abidi, Massimiliano Calì and Mohamed Ali Marouani.
 
 <!---
 2. **Migration and intergenerational transmission of marriage-related practices in West Africa over the long run: Evidence from oral genealogies** (2023) --- with Antoine Castet, Karine Marazyan, and Munir Squires
@@ -143,6 +148,8 @@ Date of Birth: January 9, 1995 \\
 
 **2025**
 
+
+Télécom-Paris AI Reading Group, Télécom-Paris, Palaiseau, France.
 [International Conference on Development Economics (ICDE)](https://icde2025.sciencesconf.org/), EconomiX, Nanterre, France.
 [11th annual AFREN Conference](https://afren.fr/3en_2025_cfp/), EconomiX, Nanterre, France.
 [41èmes Journées de Microéconomie Appliquée (JMA)](https://jma2025.sciencesconf.org/), Université de Poitiers, France.
@@ -227,8 +234,11 @@ AFREN Doctoral Worskhop, Palaiseau, France. [52nd Research Conference on Communi
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
 
+- **LERN, Rouen, France** (2025 - *Present*)\
+  *Co-organization of the LERN seminar*
+
 - **Telecom-Paris, Palaiseau, France** (2025 - *Present*)\
-  *Co-organization of the Telecom-Paris Working group"*
+  *Co-organization of the Télécom-Paris Working group"*
 
 - **Telecom-Paris, Palaiseau, France** (2025) \
   *Member of the organization team of the Paris Conference on Digital Economics*
