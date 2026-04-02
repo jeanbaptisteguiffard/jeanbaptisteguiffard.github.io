@@ -73,7 +73,7 @@ Date of Birth: January 9, 1995 \\
 \noindent\rule{\textwidth}{0.2pt}
 
 
-- **Paris I - Panthéon-Sorbonne University** (November 2019 – September 2024)  
+- **Paris I - Panthéon-Sorbonne University** (November 2019 - September 2024)  
   *PhD degree in Economics*
   - Thesis title : *"Essays in Digital Economics: Three Impact Evaluations of Broadband Internet"*
   - Supervised by Mohamed Ali Marouani (CES, D&S, Paris-1 Panthéon-Sorbonne University) and François Roubaud (DIAL, IRD & Paris-Dauphine University).
@@ -102,7 +102,9 @@ Date of Birth: January 9, 1995 \\
 
 1. Guiffard J.-B. (2024). Valuing the Virtual: The Impact of Fiber to the Home on Property Prices in France.  *Telecommunications Policy*, 48(4), 102732. doi: [10.1016/j.telpol.2024.102732](https://doi.org/10.1016/j.telpol.2024.102732).
 
-2. Kergall, P. & Guiffard, J.-B. (2024). Impact of Broadband Internet on Preventive Healthcare Behaviours in Senegal. *Economie et Statistique / Economics and Statistics*, 542, 99–123. doi: [10.24187/ecostat.2024.542.2113](https://doi.org/10.24187/ecostat.2024.542.2113).
+2. Kergall, P. & Guiffard, J.-B. (2024). Impact of Broadband Internet on Preventive Healthcare Behaviours in Senegal. *Economie et Statistique / Economics and Statistics*, 542, 99-123. doi: [10.24187/ecostat.2024.542.2113](https://doi.org/10.24187/ecostat.2024.542.2113).
+
+3. Guiffard, J.-B. (*forthcoming*). Measuring Broadband Diffusion and Impact Using Infrastructure Data. *Revue d'Economie du Développement*.
 
 
 # Working Papers
@@ -178,7 +180,7 @@ AFREN Doctoral Worskhop, Palaiseau, France. [52nd Research Conference on Communi
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
 
-- **Paris I - Panthéon-Sorbonne University, Nogent-sur-Marne, France** (2022 – 2024)  
+- **Paris I - Panthéon-Sorbonne University, Nogent-sur-Marne, France** (2022 - 2024)  
   *Teaching Assistant in Economics (ATER Full-time)*
 
 - **Orange SA, Issy-les-Moulineaux, France** (2019 - 2022)\
@@ -191,16 +193,24 @@ AFREN Doctoral Worskhop, Palaiseau, France. [52nd Research Conference on Communi
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
 
-- **Ecole Polytechnique, Palaiseau, France** (2024 – *Present*)\
+- **Rouen Normandie University, Rouen, France** (2025 - *present*)\
+  *Assistant professor*
+  - *Microeconomics* (lecture and seminar) - L1
+  - *Microeconomics* (lecture) - L2
+  - *Applied numerical methods (Introduction to R)* - L2
+  - *Trade Policies* (lecture) - L3
+  - *Topics in Development economics* - M2
+
+- **Ecole Polytechnique, Palaiseau, France** (2024 - 2026)\
   *Assistant Lecturer of Pauline Rossi and Clement Malgouyres in Applied Econometrics* - M1
 
-- **Paris I - Panthéon-Sorbonne University, Nogent-sur-Marne, France** (2024 – 2025)\
+- **Paris I - Panthéon-Sorbonne University, Nogent-sur-Marne, France** (2024 - 2025)\
   *Lecturer in Economics*
   - *Climate and Data* (an Introduction to R and an education on data and the construction of sustainable development indicators.) - M2
   - *Applied Econometrics* - M1
   - *Data Exploration and Modelling (Inequalities, Discrimination)* - M1
 
-- **Paris I - Panthéon-Sorbonne University, Nogent-sur-Marne, France** (2023 – 2024)\
+- **Paris I - Panthéon-Sorbonne University, Nogent-sur-Marne, France** (2023 - 2024)\
   *Teaching Assistant in Economics (ATER Full-time)*
   - *Development Measurement* (lecture) - M1
   - *Development Economics* (seminar) - M1
@@ -211,7 +221,7 @@ AFREN Doctoral Worskhop, Palaiseau, France. [52nd Research Conference on Communi
   - *Data Exploration and Modelling (Inequalities, Discrimination)* - M1
 
 
-- **Paris I - Panthéon-Sorbonne University, Nogent-sur-Marne, France** (2022 – 2023)\
+- **Paris I - Panthéon-Sorbonne University, Nogent-sur-Marne, France** (2022 - 2023)\
   *Teaching Assistant in Economics (ATER Part-time)*
   - *Development Measurement* (Labor and Employment in Developing Countries) - M1
   - *Quantitative Methods training course* - M1
@@ -234,16 +244,19 @@ AFREN Doctoral Worskhop, Palaiseau, France. [52nd Research Conference on Communi
 \vspace{-23pt}
 \noindent\rule{\textwidth}{0.2pt}
 
+- **LERN, Rouen, France** (2026) \
+  *Member of the local organizing committee of the International Conference on Development Economics (ICDE2026)*
+
 - **LERN, Rouen, France** (2025 - *Present*)\
   *Co-organization of the LERN seminar*
 
 - **Telecom-Paris, Palaiseau, France** (2025 - *Present*)\
-  *Co-organization of the Télécom-Paris Working group"*
+  *Co-organization of the Télécom-Paris Working group and Reading group"*
 
 - **Telecom-Paris, Palaiseau, France** (2025) \
   *Member of the organization team of the Paris Conference on Digital Economics*
 
-- **IEDES / UMR Développement et Sociétés, Nogent-sur-Marne, France** (2021 – 2025)\
+- **IEDES / UMR Développement et Sociétés, Nogent-sur-Marne, France** (2021 - 2025)\
   *Co-organization of the seminar "Au Tour de Nos Matériaux"*
   - [AuToMat](https://jeanbaptisteguiffard.github.io/automat.html) - Multidisciplinary methodological seminar
 
@@ -262,7 +275,7 @@ AFREN Doctoral Worskhop, Palaiseau, France. [52nd Research Conference on Communi
 
 - **Referee for journals**: *Journal of International Development*; *Revue internationale des études du développement*; *Telematics and Informatics*
 
-- **Scientific Committee**: *ICDE* (2025)
+- **Scientific Committee**: *ICDE* (2026, 2025); *West-African Digital Transformations Forum - Research Workshop*
 
 # Grants and Awards
 \vspace{-23pt}
