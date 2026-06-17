@@ -32,12 +32,19 @@ I am also strongly committed to teaching and research dissemination. I designed 
 ---
 
 ## News
-- 📢 I will join the [LERN](https://lern.univ-rouen.fr/) team as a assistant professor in September 2025!
+<!---
+- 📚 New publication: Guiffard, J.-B. (*forthcoming*). Measuring Broadband Diffusion and Impact Using Infrastructure Data. *Revue d'Economie du Développement*.
+- organisation de la conférence au LERN
+--->
+
+- 📢 I joined the [LERN](https://lern.univ-rouen.fr/) team as a assistant professor in September 2025!
 - 📢 *On the job market 2024-2025!*
 - 📚 New Working paper: [*From Bytes to Business: Mobile Broadband, Firm Creations and Digital Divide in Tunisia*](https://erf.org.eg/publications/from-bytes-to-business-mobile-broadband-firm-creations-and-digital-divide-in-tunisia/) (2025).
+
+<!---
 - 🎓 PhD defended in Sept. 2024 at Université Paris 1.
 - 🏆 Winner of the [TPRC 2024 Student Paper Award](https://www.tprcweb.com/student-paper-competition-finalists).  
-
+--->
 
 
 ---

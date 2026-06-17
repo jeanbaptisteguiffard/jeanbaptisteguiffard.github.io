@@ -148,6 +148,12 @@ Date of Birth: January 9, 1995 \\
 \noindent\rule{\textwidth}{0.2pt}
 
 
+**2026**
+
+[Development Economics Research - Connect webinar](https://dev-connect.org/webinar/research-seminar-6/) (Discussant), Online.
+
+
+
 **2025**
 
 
@@ -267,15 +273,19 @@ AFREN Doctoral Worskhop, Palaiseau, France. [52nd Research Conference on Communi
   [*Communication team*](https://afedev.fr/)
   
 - **UMR Développement et Sociétés and PSE, Nogent-sur-Marne, France** (December 2023)\
-  *Co-organization of a [Workshop on spatial data in economics](https://umr-devsoc.pantheonsorbonne.fr/evenements/journee-detudes-donnees-spatiales-nouvelles-sources-nouvelles-perspectives)* with [Antoine Castet](https://sites.google.com/view/antoinecastet) (UMR Développement & Sociétés), [Pascale Champalaune](https://www.parisschoolofeconomics.eu/fr/champalaune-pascale/) (PSE) and [Julia Paul-Venturine](https://julia-paulventurine.github.io/) (PSE)
-  
+  *Co-organization of a [Workshop on spatial data in economics](https://umr-devsoc.pantheonsorbonne.fr/evenements/journee-detudes-donnees-spatiales-nouvelles-sources-nouvelles-perspectives)* 
+
+<!---  
+with [Antoine Castet](https://sites.google.com/view/antoinecastet) (UMR Développement & Sociétés), [Pascale Champalaune](https://pchampalaune.github.io/) (PSE) and [Julia Paul-Venturine](https://julia-paulventurine.github.io/) (PSE)
+--->
+
 - **UMR Développement et Sociétés, Nogent-sur-Marne, France** (October 2023)\
   *Co-organization of a joint UMR DEVSOC and CIRED PhD poster session*
 
 
 - **Referee for journals**: *Journal of International Development*; *Revue internationale des études du développement*; *Telematics and Informatics*
 
-- **Scientific Committee**: *ICDE* (2026, 2025); *West-African Digital Transformations Forum - Research Workshop*
+- **Scientific Committee**: *ICDE* (2026, 2025); *West-African Digital Transformations Forum - Research Workshop* (2026); *International Workshop of the UNESCO Chair "Défis partagés du développement"* (2026)
 
 # Grants and Awards
 \vspace{-23pt}
