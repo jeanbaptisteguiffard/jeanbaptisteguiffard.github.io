@@ -104,8 +104,7 @@ Date of Birth: January 9, 1995 \\
 
 2. Kergall, P. & Guiffard, J.-B. (2024). Impact of Broadband Internet on Preventive Healthcare Behaviours in Senegal. *Economie et Statistique / Economics and Statistics*, 542, 99-123. doi: [10.24187/ecostat.2024.542.2113](https://doi.org/10.24187/ecostat.2024.542.2113).
 
-3. Guiffard, J.-B. (*forthcoming*). Measuring Broadband Diffusion and Impact Using Infrastructure Data. *Revue d'Economie du Développement*.
-
+3. Guiffard, J. B. (2025). Measuring broadband Internet diffusion and impact using infrastructure data. Revue d'économie du développement, 33(3), 235-242.  doi: [10.3917/edd.393.0235](https://doi.org/10.3917/edd.393.0235).
 
 # Working Papers
 \vspace{-23pt}
