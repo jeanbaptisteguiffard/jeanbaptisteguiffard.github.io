@@ -14,6 +14,17 @@ output:
 
 ## 📚 Publications
 
+
+<div class="content">
+<div class="figure">
+<img src="images/illustration_RED.png" alt="Map network functionning">
+</div>
+<div class="abstract">
+[**Measuring broadband Internet diffusion and impact using infrastructure data**](https://doi.org/10.3917/edd.393.0235) - *Revue d'économie du développement, 2025*
+<p>Broadband reshapes access to information in developing countries, but its diffusion remains highly uneven. This paper highlights the benefits of using infrastructure data to measure exposure to high-speed Internet and to identify its political effects in data-scarce settings.</p>
+</div>
+</div>
+
 <div class="content">
 <div class="figure">
 <img src="images/map_methodo_bretteville_14022024.png" alt="Map Methodology Bretteville">
@@ -72,10 +83,13 @@ output:
 
 ## 📑 Ongoing Research
 
-
+<!---
 1. **Digital platforms, high-speed Internet, and the transition from informal to formal employment in Brazil** (2025) --- with Joël Cariolle
 
-2. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
+--->
+
+1. **Measuring AI Substitutability and Complementarity in Developing Countries’ Labor Markets: Evidence from Online Job Postings Data.** (2025) --- with Minh-Phuong Le
+
 
 
 
